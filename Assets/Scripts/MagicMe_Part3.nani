@@ -1,0 +1,2967 @@
+@showUI ContinueInputUI
+ 
+;#2-1. INT. LIBRARY - READING DESK (LOC 12)																									
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+@customSave
+
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію Бібліотека стіл з книгу
+@back Library-interior-table.Crossfade id:MagicMePart2 time:0.5																							
+;MIA, OMAR, DINA																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...As I examined the cut in my hand, Omar's eyes were boring into me. It made me feel uneasy. He noticed my reaction." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Sorry. I don't normally stare." author:omar reset:true speed:20
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "And I don't normally fall asleep over reading." author:{G_playerName} reset:true speed:20																									
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I guess it's an awfully boring book." author:omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																								
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Quite the contrary! It has this picture of a witch that looks exactly like my aunt." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I see. My aunt is quite the wicked witch as well." author:omar reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "No, I love my aunt! She took me in when my mom passed away, and she raised me." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Oh. I'm sorry. I meant it as a stupid joke. Like, you know, if your aunt were an actual witch who has been around for all these years, it would make you a tenth-generation witch or something..." author:omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I think I should turn you into a frog now." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Omar covered his face with his hands in jest." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Oh no! Have mercy! I can feel my skin turn green!" author:omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...We both laughed, and then we heard the library was closing for the day." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I have to return the book, and I barely got to read it!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I picked up the book and had an odd feeling that I mustn't part with it." reset:true speed:20
+@hidePrinter AutorText																									
+@hide {G_playerVisual}			
+@hide omar
+
+;PRINTER CHOICE	
+
+
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Steal the book." set:G_MagicMePart2_choses01=1 goto:.MagicMePart2_Choise1_1 		
+@choice handler:ChatReply "Return the book." set:G_MagicMePart2_choses01=2 goto:.MagicMePart2_Choise1_2								
+@stop
+;OPTION 1: Steal the book.
+;OPTION 2: Return the book.
+																									
+;OPTION 1: Steal the book.																									
+#MagicMePart2_Choise1_1
+
+@customSave
+
+@printer AutorText pos:50,45
+@print "...I felt a haunting connection with the book. It was as if Evidence of Magic was waiting for me and didn't want me to let it go. It was like I got overcome by a trance. Omar went to take his books to the circulation desk and, while nobody was looking, I slipped the ancient tome into my bag." reset:true speed:20																									
+@hidePrinter AutorText
+
+;GO TO: OMAR INVITES MIA TO DINNER		
+@goto .OmarInviteHeroToDiner
+
+;OPTION 2: Return the book.																									
+#MagicMePart2_Choise1_2
+
+@customSave
+
+@printer AutorText pos:50,45
+@print "...For a second I contemplated keeping the book, but then I snapped out of it. Why would I break the library rules and make Dina mad at me?" reset:true speed:20
+@hidePrinter AutorText
+@printer AutorText pos:50,45
+@print "...I've been told the book was for library use only. I decided I'd return tomorrow and ask for the book again after class." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Do you want me to drop it off for you? I was going to return some books anyway." author:omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45
+@print "That would be great, thanks." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																								
+																									
+																									
+;GO TO: OMAR INVITES MIA FOR DINNER																									
+@goto .OmarInviteHeroToDiner																				
+;OMAR INVITES MIA FOR DINNER																									
+
+#OmarInviteHeroToDiner
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Omar was back in a couple of minutes. He held my gaze in a funny kind of suspense." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I think I know exactly what a first year student needs on their first day in college. A good old hearty meal. Come, I'll show you the best place to eat on campus." author:Omar reset:true speed:20
+@hidePrinter BubbleRight
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide omar																									
+@hide {G_playerVisual}																								
+;PRINTER CHOICE	
+																								
+#CHOICE2_2
+																					
+;OPTION 1: Agree to come: you're starving!																									
+;OPTION 2: Refuse his offer: you're not hungry.		
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Agree to come: you're starving!" set:G_MagicMePart2_choses02=1 goto:.MagicMePart2_Choise2_1 		
+@choice handler:ChatReply "Refuse his offer: you're not hungry." set:G_MagicMePart2_choses02=2 goto:.MagicMePart2_Choise2_2								
+@stop																							
+
+#MagicMePart2_Choise2_1
+
+@customSave
+
+;OPTION 1: Agree to come: you're starving!																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Why not? I wanted to make some new friends, didn't I? Besides, I was in no hurry to see Harmony again back at the dorm." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Sounds perfect! It's just what I need right now." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "There's a street food joint near the main square. They close at eight, so we still have an hour to grab some dinner." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "I love street food!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}																									
+@hide omar																										
+																									
+;GO TO: DINA JOINS THEM																									
+@goto .DinaJoinThem	
+
+#MagicMePart2_Choise2_2	
+
+@customSave
+
+;OPTION 2: Refuse his offer: you're not hungry.																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I didn't feel like eating. And I still had my dorm situation to solve: I didn't want to stay in the same room with Harmony, but I couldn't sleep on the street either." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Thanks, Omar, but I'm not that hungry. I think I should call it a day and go to bed early." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I'll walk you to the dorm, then. There's a street food joint near the main square. They close at eight, so I still have an hour to grab some dinner." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Okay." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}																									
+@hide omar																										
+;GO TO: DINA JOINS THEM	
+@goto .DinaJoinThem																								
+
+#DinaJoinThem																									
+;DINA JOINS THEM	
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію Бібліотека
+@back Library-interior.Crossfade id:MagicMePart2 time:0.5																							
+;MIA, OMAR, DINA																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...We had already reached the door when Dina caught up with us." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+;IF CHOICE 2_1 VAR 1
+@if G_MagicMePart2_choses01=1
+@goto .DINAJOINTOTHEM_1 
+@elseIf G_MagicMePart2_choses01=2
+@goto .DINAJOINTOTHEM_2
+@endIf
+
+#DINAJOINTOTHEM_1 
+@spawn SunShafts
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "{G_playerName}, wait!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I was screwed! Now she was going to call me out for taking the book, and Omar would know I'm a thief! What was I even thinking?" reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I stared at Dina and mentally begged her not to bring up the book." reset:true speed:20
+@hidePrinter AutorText																									
+																																																
+@printer AutorText pos:50,45																									
+@print "...Dina paused and furrowed her brow." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I was about to ask you something, but now I can't remember what it was." author:Dina reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide dina																									
+@hide {G_playerVisual}																										
+;CAPTION: +1 Magic.	
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic
+
+@despawn SunShafts
+
+@goto .DINAJOINTOTHEM_3	
+																									
+;IF CHOICE 2_1 VAR 2																									
+#DINAJOINTOTHEM_2
+																							
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "{G_playerName}, wait! I just wanted to let you know you should return the books you borrow personally." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "You're right. I'm sorry. I should've returned it myself, but Omar offered to take it, and I didn't realize it was wrong." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}																									
+@hide dina
+@goto .DINAJOINTOTHEM_3	
+;THEN			
+#DINAJOINTOTHEM_3																				
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina shifted her gaze to Omar and smiled." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Hey, I'm Dina. What are you guys doing for dinner?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide dina	
+
+@if G_MagicMePart2_choses02=1
+@goto .DINAJOINTOTHEM_4
+@elseIf G_MagicMePart2_choses02=2
+@goto .DINAJOINTOTHEM_5
+@endIf
+
+#DINAJOINTOTHEM_4
+;IF CHOICE 2_2 VAR 1																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "We were going to grab something at the street food place just off the square. Wanna join us?" author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "With pleasure!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina		
+@hide omar
+@goto .DINAJOINTOTHEM_6
+
+#DINAJOINTOTHEM_5
+;IF CHOICE 2_2 VAR 2																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Well, I was trying to talk {G_playerName} into joining me for some street food, but she said no. Maybe you'll be more convincing." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "{G_playerName}, you should totally say yes! The street food place is amazing, you absolutely have to try it. And I'm not taking no for an answer. Come on!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina																									
+@hide omar
+@goto .DINAJOINTOTHEM_6																								
+;THEN
+#DINAJOINTOTHEM_6
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...So the three of us went to the supposedly best place to eat on campus." reset:true speed:20
+@hidePrinter AutorText
+																									
+																									
+;#2-2. NAT. STREET FOOD PLACE - NIGHT (LOC 15_EVN)	
+@back black.Crossfade id:MagicMePart2 time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Food-street.Crossfade id:MagicMePart2 time:0.5																							
+;MIA, OMAR, DINA		
+
+																																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Omar led the way to a small food wagon. Judging by the people queuing outside of it, my new friend wasn't the only one who thought they cooked the best food on campus." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Cool, it's Vietnamese day!" author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I didn't recognize any of the words on the menu. Dina noticed that I was confused." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Okay, let me break it down for you. Pho is a traditional noodle soup, and Bánh Cuốn are rice rolls. They're both soooo tasty!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "And Nem Nuong is grilled sausage wrapped in rice paper. It should be dipped in sauce. By the way, the portions here are huge." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																								
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Omar and Dina ordered one serving of pies and sausages each. I took the soup. Along with the plate, the seller handed me a small sachet with some kind of powdery substance." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Is this salt?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "No, that's MSG powder." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I don't know what that is." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Monosodium Glutamate. It's a food additive to enhance the taste." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide omar																									
+@hide {G_playerVisual}	
+@hide dina																									
+;CLOSE-UP: Glycerol Monostearate.																									
+;OPTION: Take it.	
+@back black.Crossfade id:MagicMePart2 time:0.5
+;Очікування 0.25с 
+@wait 0.25
+@back Glutamate.Crossfade id:MagicMePart2 time:0.5		
+
+@customSave
+
+@printer Chat											
+@print "Glycerol Monostearate." author:null reset:true waitInput:false	
+@choice handler:ChatReply "TAKE IT" do:"@hidePrinter Chat" goto:.ContinueNext
+@stop 						
+
+#ContinueNext
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Food-street.Crossfade id:MagicMePart2 time:0.5			
+
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "So it kind of chemically fools your taste buds?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Well, yes. So does good old salt. This is the sodium salt of glutamic acid. They originally extracted it from wheat, then from algae. It exists naturally in many foods, like milk, Parmesan cheese, and even tomatoes." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "It's also known as the Umami flavor. Means 'essence of deliciousness' in Japanese. It doesn't add any sweetness or saltiness to food, but it rather makes you feel the existing tastes more deeply." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Omar looked quite pleased that Dina was interested in the topic as well." reset:true speed:20
+@hidePrinter AutorText																									
+																																																		
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "So, you're into chemistry, like me?" author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "I'm more of a cookery nerd. I know that the brown crust on meat happens due to the Maillard reaction between amino acids and reducing sugars under high temperatures." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I looked at them and saw that they had a lot in common." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Am I supposed to believe you two haven't met before today?!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char dina.smile pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.smile pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "We saw each other in the library. I brought him the books he asked for from the vault." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.smile pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Yeah, and then I brought them back to her desk. I'm glad we're getting to know each other properly." author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I noticed the affectionate look Dina gave Omar. It felt like she had a thing for him, and it certainly didn't happen just now." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...We found a spot under a tree, sat down, and started to eat. I decided to see how the soup would taste without the enhancer, so I put the MSG sachet into my pocket." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.smile pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.smile pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Yum! This is seriously delicious! Even without the glutamate." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.smile pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina offered me the sausage wrapped in herbs and rice paper." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "You should try it. Here, dip it into the sauce." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Thanks... OUCH!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@hide {G_playerVisual}																									
+@hide dina	
+@hide omar																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I reached out my hand, but at that very moment Dina accidentally pushed the sauce container, and it was all over me." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+;1 SKETCH: {G_playerName} with bright red stains all over her clothes.	
+; depend of player choise visual show proper scetch
+@if G_playerVisual=="miaBlonde"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-blonde-in-sous.Crossfade id:MagicMePart2 time:0.5 
+@elseIf G_playerVisual=="miaRedhead"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-redhead-in-sous.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaAsian"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-asian-in-sous.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaMulatto"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-mulatto-in-sous.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaNegro"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-negro-in-sous.Crossfade id:MagicMePart2 time:0.5
+@endIf		
+
+@wait 3
+
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Food-street.Crossfade id:MagicMePart2 time:0.5
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Oh no! I'm so sorry! I'm so clumsy sometimes." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char omar.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "If you treat the stains with some citric acid, they'll be gone without a trace. Maybe we can ask the cooks from the wagon for a lemon?" author:Omar reset:true speed:20
+@hidePrinter BubbleRight																									
+@char omar.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "I have some at home. I live right here on campus. Come on, let's go save your clothes." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina																									
+@hide omar																									
+
+
+;PRINTER CHOICE		
+;OPTION 1: Come with Dina.																									
+;OPTION 2: Ask the cooks for a lemon.	
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Come with Dina." set:G_MagicMePart2_choses03=1 goto:.MagicMePart2_Choise3_1 		
+@choice handler:ChatReply "Ask the cooks for a lemon." set:G_MagicMePart2_choses03=2 goto:.MagicMePart2_Choise3_2								
+@stop		
+																							
+#MagicMePart2_Choise3_1 
+
+@customSave
+
+;OPTION 1: Come with Dina.																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Are you sure?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Of course! Let's go, we'd better treat the stains before they set in." author:Dina reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide dina																									
+@hide {G_playerVisual}																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...We quickly gathered the unfinished food, said goodbye to Omar and went to Dina's." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+;GO TO SCENE 2_4																									
+@goto .MagicMePart2_4_DinasRoom_Night 
+																									
+																									
+;OPTION 2: Ask the cooks for a lemon.
+#MagicMePart2_Choise3_2 		
+
+@customSave
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I decided not to ruin the evening for Dina and Omar. It was obvious that they were enjoying each others' company." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "No, it's all right, I'll manage. I'll be back once I fix this." author:{G_playerName} reset:true speed:20																							
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...So I borrowed a lemon from the cooks and went to the cafeteria bathroom. " reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+																									
+;#2-3. INT. BATHROOM AT GREEN SQUARE CAFE (LOC 16)	 
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Toilet.Crossfade id:MagicMePart2 time:0.5
+@spawn SunShafts
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I walked up to the sink in the bathroom and suddenly heard a familiar high-pitched voice behind me." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Hah! You're a real class act, aren't you? The stains look perfect on you." author:Harmony reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The impeccable miss Harmony was sneering at me." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "How about we snap a selfie? We're like Beauty and the Beast!" author:Harmony reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony pulled out her phone with rhinestones all over its case." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Leave me alone." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}																									
+@hide harmony																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I glared at Harmony with all the hatred I had in me, and then her phone just slipped out of her hand!" reset:true speed:20																									
+@hidePrinter AutorText									
+
+;Перехід в локацію Кімната Мії у будинку Фло варіант 1
+;@back black.Crossfade  id:MagicMePart2 time:0.5
+;@print "Brocken phone need Image? On google Drive can't find but remember it was the" reset:true speed:20
+;@wait 2
+;Перехід в чорний
+;@back black.Crossfade id:MagicMePart2 time:0.5
+;Очікування 0.25с 
+;@wait 0.25
+;@back Toilet.Crossfade  id:MagicMePart2 time:0.5					
+                        																			
+;CAPTION: +1 Magic.			
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic																				
+
+@despawn SunShafts																								
+																									
+@char harmony.angry pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.angry pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Now look what you've done, you scarecrow! My screen is broken! You're gonna pay for this!" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.angry pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																								
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony came at me and took a swing when Dina walked into the bathroom." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "What's going on here?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "And who in the freaking hell are you?" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina's jaw dropped in disbelief." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.default pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Never mind her, Dina. It's only my ill-mannered roommate." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.default pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Ex-roommate. You can sleep in the street for all I care. I'll leave your pathetic stuff in the hallway. War means war." author:Harmony reset:true speed:20
+@hidePrinter BubbleRight
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony turned on her heels and stormed out of the bathroom." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "What a jerk! We're totally going to my place now." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina
+@hide harmony
+@hide {G_playerVisual}
+
+@goto .MagicMePart2_4_DinasRoom_Night
+;#2-4. INT. DINA'S ROOM - NIGHT (LOC 17_EVN)	
+#MagicMePart2_4_DinasRoom_Night 																								
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Dina-room-night.Crossfade id:MagicMePart2 time:0.5 
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina's room was incredible. It was obvious she had excellent taste. All the things in the room were carefully picked and coordinated." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Come on in, {G_playerName}. The shower's in here. You can take some of my clothes to change into." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide dina																									
+
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід в локацію вагончик з вуличною їжою у будинку Фло варіант 1
+@back Dina-room-mirror.Crossfade id:MagicMePart2 time:0.5 
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina's closet was full of lovely outfits. I wasn't used to this type of clothes. Dina was very pretty and certainly knew how to highlight her strengths. " reset:true speed:20
+@hidePrinter AutorText
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I wasn't sure if her clothes would look as good on me." reset:true speed:20
+@hidePrinter AutorText
+;G_ChangeDress																							
+@set G_ChangeDress="dress1"
+@char {G_playerVisual}.{G_ChangeDress} pos:50,0 scale:0.9,0.9,1 time:0
+
+#SelectCloth
+@customSave
+
+@choice  handler:ChoiseLook "Green fantasy" set:G_ChangeDress="dress1" goto:.setChoiseCloth
+@choice  handler:ChoiseLook "Blue classic" set:G_ChangeDress="dress2" goto:.setChoiseCloth 
+@choice  handler:ChoiseLook "Pink modest" set:G_ChangeDress="dress3" goto:.setChoiseCloth 
+@choice handler:ChoiseLook "Continue" goto:.EndClothChoise
+@stop	
+
+#setChoiseCloth
+@hideChars
+@char {G_playerVisual}.{G_ChangeDress} pos:80,0 scale:0.9,0.9,1 time:0
+@wait 0.3
+@hide {G_playerVisual}
+@char {G_playerVisual}.{G_ChangeDress} pos:50,0 scale:0.9,0.9,1 time:0
+@goto .SelectCloth 
+ 
+#EndClothChoise			
+
+@hideChars
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I changed, and it was weird to see my reflection in the mirror." reset:true speed:20
+@hidePrinter AutorText	
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Wow! You look stunning in that dress! " author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Thanks... Frankly, I'm so used to wearing jeans that I forgot when was the last time I wore a dress." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "We'll have to fix this. Hey, what's that?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina had noticed the cut on my hand." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I guess I accidentally cut myself back in the library. But I can't recall how it happened..." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Oh, that happens to me all the time. I end up with papercuts in situations you wouldn't believe! Libraries can be a real health hazard!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+																									
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...We both laughed. Indeed, I must have cut myself against the pages of that old book. It was a welcome explanation. " reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Aren't you a bit overqualified for the job in the library?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Yes, but I only took it because I wanted to stay on campus after graduating. I love it here. I plan on applying for Master's Degree next year. I'm a bit worried that something will go wrong during the interview and they won't offer me a place..." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I'll be rooting for you." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}
+@hide dina																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Then Dina offered me tea, and I finally felt like I could relax." reset:true speed:20																									
+@hidePrinter AutorText																									
+
+@if G_MagicMePart2_choses03=1
+@goto .G_MagicMePart2_choses03Result1
+@elseif G_MagicMePart2_choses03=2
+@goto .G_MagicMePart2_choses03Result2
+@endif
+
+#G_MagicMePart2_choses03Result1
+																									
+;IF CHOICE 2_3 VAR 1																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Did you get to meet your roommate?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I did, but it was not a friendly encounter. We have different philosophies, to put it mildly. I think I'll have to ask them to move me to another room." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Aw, that's too bad. My roommate is a sweet girl, but she mostly hangs out with her boyfriend, so she's rarely here." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I wish I were roommates with you." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina smiled." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Well, let's hope the lovebirds get married soon so she can move out, and you can move in with me." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@goto .G_MagicMePart2_choses03ResultEnd
+																									
+#G_MagicMePart2_choses03Result2																						
+;IF CHOICE 2_3 VAR 2																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Well, the office is closed for the day. You should get your stuff and stay with me tonight. Tomorrow you can explain the situation and they'll find you another room." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Where's your roommate by the way?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "She mostly hangs out with her boyfriend. Lately she doesn't even return for the night." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+	
+
+@goto .G_MagicMePart2_choses03ResultEnd
+																									
+#G_MagicMePart2_choses03ResultEnd																								
+;THEN																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina showed me a photo of the couple standing next to one of the beds." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "These two are going steady." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I looked at the girl in the photo, happily wrapped in her boyfriend's arms... How I wished they would decide to move in together! I fumbled with my mother's amulet." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+																							
+@printer AutorText pos:50,45																									
+@print "...Dina's phone interrupted my thoughts. She picked up, spoke to someone for a minute, and looked really surprised." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Wow. Speak of the devil. It was Kate. My roommate. She decided to move in with her boyfriend! Said she's going to pick up her stuff tomorrow. So I guess her bed is free now." author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I was the happiest person in the world! " reset:true speed:20
+@hidePrinter AutorText																									
+
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "I guess it was just meant to be! Well, are you staying, then?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Of course! I feel like I've known you for a million years!" author:{G_playerName} reset:true speed:20	
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina hugged me and said good night." reset:true speed:20
+@hidePrinter AutorText																									
+
+;#2-5. DINA'S ROOM - MIA'S BED (LOC 18)
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с 
+@wait 0.25
+;Перехід 
+@back Dina-room-close-up-night.Crossfade id:MagicMePart2 time:0.5 
+
+@if G_MagicMePart2_choses02==1
+@goto .G_MagicMePart2_choses02Result1
+@elseIf G_MagicMePart2_choses02==2
+@goto .G_MagicMePart2_choses02Result2
+@endIf
+
+#G_MagicMePart2_choses02Result1
+;IF CHOICE 2_1 VAR 1	
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I could almost hear the book calling to me. I was feeling a little guilty: by taking the book, I'd betrayed Dina's trust, and she's been so good to me from the start. But I couldn't resist." reset:true speed:20
+@hidePrinter AutorText	
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina pulled a book off the shelf and settled in her bed to read before she went to sleep. And I felt an overwhelming desire to take another peek at Evidence of Magic." reset:true speed:20 
+@hidePrinter AutorText
+@printer AutorText pos:50,45
+@print "...I could almost hear the book calling to me. I was feeling a little guilty: by taking the book, I'd betrayed Dina's trust, and she's been so good to me from the start. But I couldn't resist." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Dina, I have to make a confession." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "What is it?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I'm terribly sorry... But I... I couldn't part with Evidence of Magic." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "In what sense?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Instead of answering, I opened my bag. I put on the gloves and pulled out the book, which was carefully wrapped in my hoodie. Dina just stared at me in shock, lost for words." reset:true speed:20
+@hidePrinter AutorText
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "You can't do that!!! How did I not notice the book was not back in the vault!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I know this is going to sound absurd, but I think this book can hypnotize people. I mean, it sort of charmed me into taking it, and then it charmed you into not noticing it." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "If someone finds out about this, I'm in big trouble!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina looked completely distraught. I felt terrible. " reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I told myself I would fix this. After all, nothing bad had happened yet. I handled the book very carefully all along. I would take it back to the vault first thing in the morning. And I swore to myself I would never allow it to happen again." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina sighed and looked at me a bit more softly. " reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Well... I guess nothing bad happened yet. Looks like you've handled it with care. But you're going to take it back to the vault first thing in the morning, and you're going to swear you're not letting this happen again." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+;CAPTION: +1 Magic.	
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic	
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Thanks, Dina. You're the best friend imaginable." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I put the book on the bedside table." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@goto .G_MagicMePart2_choses02ResultEnd																							
+;GO TO: READING IN BED																									
+;IF CHOICE 2_1 VAR 2																									
+#G_MagicMePart2_choses02Result2																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina went to her bag, opened it and paused for a moment." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Today is so weird. It's like I've been drugged or something. When Omar returned the books, for some reason, instead of taking Evidence of Magic back to the vault, I took it with me. Can you imagine? I even took the gloves!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Wow! But why?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "That's the thing! I don't remember! I guess I put it in my bag on autopilot, and I didn't remember doing it until now." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic																							
+;CAPTION: +1 Magic.																									
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Well...since it's here anyway, do you mind if I read it?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "I guess not. Seriously, what a weird day!" author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina put the book and the gloves on my bedside table." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Dina remained confused as to why she had taken the book with her. It was a very strange thing to do indeed. The book seemed to have a will of its own, and it was influencing ours." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@goto .G_MagicMePart2_choses02ResultEnd																								
+;GO TO: READING IN BED
+
+#G_MagicMePart2_choses02ResultEnd
+;READING IN BED
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...Dina fell asleep quickly, but I was restless. It felt like the book was begging for me to open it... I quietly turned on the nightlight, put on the gloves and picked up the book. And then, the room turned into a swirl..." reset:true speed:20
+@hidePrinter AutorText
+@hide dina
+@hide {G_playerVisual}
+
+
+;BACKDROP: THE FALL BETWEEN THE AGES
+;#2-6. MIDDLE AGES - THE ALCHEMIST'S ROOM (LOC 19)	
+;ФОН «ПЕРЕХІД В СЕРЕДНЬОВІЧЧЯ»
+
+@camera offset:0,0 time:0.3
+@back Dina-room-close-up-night.Crossfade id:MagicMePart2 time:2
+@wait 1
+@back transition-library-Middle-Ages.Crossfade id:MagicMePart2 time:4 
+@back alhimik-home.Crossfade id:MagicMePart2 time:3
+
+;ФОН «ПЕРЕХІД В СЕРЕДНЬОВІЧЧЯ»
+
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Where am I? Looks like some kind of chemical lab. An alchemical one, to be exact." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...My eyes were drawn to a book on the table. I took a glance, but did not understand a thing: it seemed to contain mostly chemical formulas... And I had not had time to get a better look: there were footsteps outside. I hid behind a cabinet. Then, the alchemist entered the room." reset:true speed:20
+@hidePrinter AutorText																									
+
+
+@if G_MagicMePart1_choses13==1 
+@goto .MagicMePart2_prevchoses01Result
+@elseIf G_MagicMePart1_choses13==2
+@goto .MagicMePart2_prevchoses02Result
+@endIf
+
+#MagicMePart2_prevchoses01Result															
+;IF CHOICE 1_13_1																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Last time I did not catch a glimpse of his face, but now I could see it clearly. He looked just like Omar! I wondered how he would react if he had noticed me. And the uncanny similarity made me wonder about the witch who looked like my aunt. " reset:true speed:20
+@hidePrinter AutorText																									
+
+@goto .MagicMePart2_EndPrevChoice1																					
+#MagicMePart2_prevchoses02Result																								
+;IF CHOICE 1_13_2																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...We didn't get a chance to talk before. Would it make sense to ask him about the witch now? " reset:true speed:20
+@hidePrinter AutorText		
+
+@goto .MagicMePart2_EndPrevChoice1
+																									
+#MagicMePart2_EndPrevChoice1
+
+#CHOICE2_4
+
+;OPTION 1: Escape quietly.
+;OPTION 2: Stay hidden and see what he does.
+;OPTION 3: Reveal yourself and talk to him.	
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Escape quietly." set:G_MagicMePart2_choses04=1 goto:.MagicMePart2_Choise4_1		
+@choice handler:ChatReply "Stay hidden and see what he does." set:G_MagicMePart2_choses04=2 goto:.MagicMePart2_Choise4_2			
+@choice handler:ChatReply "Reveal yourself and talk to him." set:G_MagicMePart2_choses04=3 goto:.MagicMePart2_Choise4_3					
+@stop																									
+
+#MagicMePart2_Choise4_1
+
+@customSave
+
+;OPTION 1: Escape quietly.																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The monk walked to the table and picked up a transparent vial with a green liquid. He was deep in thought and looked rather frustrated. I decided to get out of there. I took a swift step from behind the cabinet, hoping to slip through the door past the monk, but he quickly blocked my way with a crooked staff." reset:true speed:20
+@hidePrinter AutorText																									
+
+;SPEECH BUBBLE: BAM!
+
+@camera offset:0,0 time:0.2																									
+@camera offset:0,-0.10 time:0.1
+@camera offset:0.15,0.10 time:0.1
+@camera offset:-0.15,-0.10 time:0.1	
+@camera offset:0,0 time:0.1
+@spawn ShakePrinter
+@printer AutorText pos:50,45																							
+@print "...BAM!" reset:true speed:20																									
+@hidePrinter AutorText
+@wait 0.2	
+
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I fell down on the dirty floor." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Who are you? Were you stealing from me?!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...I had to think of something quickly! The monk gave me a blank stare." reset:true speed:20
+@hidePrinter AutorText																									
+																																																	
+;GO TO: THE ALCHEMIST THINKS MIA IS AN APPRENTICE													
+@goto .MagicMePart2_MiaIsApprentis
+
+#MagicMePart2_Choise4_2
+
+@customSave
+
+;OPTION 2: Stay hidden and see what he does.																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The monk walked to the table and picked up a transparent vial with a green liquid. He was deep in thought and looked rather frustrated. I stood very quietly behind the closet. Suddenly, I saw a mouse!" reset:true speed:20
+@hidePrinter AutorText																									
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "AAAAGHH!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The alchemist was equally startled when he saw me!" reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "AAAAGHH! What are you doing here?!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist																									
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I'm... I'm only here because..." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@camera offset:0,0 time:0.2
+@printer AutorText pos:50,45
+@print "...I had to think of something quickly! The monk gave me a blank stare." reset:true speed:20
+@hidePrinter AutorText
+
+@goto .MagicMePart2_MiaIsApprentis
+																									
+#MagicMePart2_Choise4_3
+
+@customSave
+
+;OPTION 3: Reveal yourself and talk to him.
+@camera offset:0,0 time:0.2
+@printer AutorText pos:50,45
+@print "...The monk walked to the table and picked up a transparent vial with a green liquid. He was deep in thought and looked rather frustrated. I stepped out from behind the cabinet and greeted him." reset:true speed:20
+@hidePrinter AutorText
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Could you spare me a minute? We got interrupted the last time I tried talking to you." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+
+;CAPTION: +1 Magic.																									
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic																									
+;GO TO: THE ALCHEMIST THINKS MIA IS AN APPRENTICE																									
+@goto .MagicMePart2_MiaIsApprentis
+#MagicMePart2_MiaIsApprentis																				
+;THE ALCHEMIST THINKS MIA IS AN APPRENTICE
+;Are you the apprentice they sent from the monastery? 
+ 
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer  pos:50,45
+@print "Are you the apprentice they sent from the monastery?" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist																									
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Uhhhh... yes!" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Couldn't they find anyone better? My God, will this never end?! Ow..." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The alchemist groaned, and I realized that something was bothering him. He rubbed his temples as he sat down on a chair." reset:true speed:20
+@hidePrinter AutorText
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Are you having a headache?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "More like half a headache. Only one side of my head hurts. But it hurts so bad!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Sounds like a migraine. You should get an MRI." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The alchemist looked at me in bewilderment." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "I didn't ask for your advice. Your job is to gather the herbs I need and to keep the fire burning. Can you handle that much?" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																	
+;#2-7. ALCHEMIST'S ROOM - FIREPLACE (LOC 20)
+@camera offset:0,0 time:0.3
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+;Очікування 0.25с
+@wait 0.25
+; Change location
+@back alhimik-home-cauldron.Crossfade id:MagicMePart2 time:0.5
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...The alchemist walked to the fireplace and stirred something in the cauldron. He looked unhappy with whatever was bubbling inside." reset:true speed:20
+@hidePrinter AutorText
+
+#CHOICE2_5
+
+;OPTION 1: Ask him about the witch.																									
+;OPTION 2: Ask what's in the cauldron.
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice handler:ChatReply "Ask him about the witch." set:G_MagicMePart2_choses05=1  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise5_1
+@choice handler:ChatReply "Ask what's in the cauldron." set:G_MagicMePart2_choses05=2  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise5_2
+@stop
+
+;OPTION 1: Ask him about the witch.																									
+#MagicMePart2_Choise5_1
+
+@customSave
+
+@if G_MagicMePart1_choses13==1
+@goto .MagicMePart2_prevchoses03Result	
+@elseIf G_MagicMePart1_choses13==2
+@goto .MagicMePart2_prevchoses04Result
+@endIf
+
+#MagicMePart2_prevchoses03Result	
+;IF CHOICE 1_13_1																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "When we met back in town, you mentioned a witch that had put a curse on a Duchess." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+
+@goto .MagicMePart2_prevchoses04Continue
+;IF CHOICE 1_13_2			
+#MagicMePart2_prevchoses04Result																						
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "I saw you back in town when they were going to execute a witch. Was she guilty?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "She put a curse on the Dutchess, the sister of the Duke. Every healer and scholar in the land is looking for a cure." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+
+@goto .MagicMePart2_prevchoses04Continue
+#MagicMePart2_prevchoses04Continue																							
+;THEN
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "That's why I've been stuck in this laboratory for two weeks without rest. I need to be the first to come up with a cure. If I succeed, I'm going to become Court Healer." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "So how's progress?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Well, the brew needs to be darker. The book says algae should do the trick, but none of the seaweed I've used so far seemed to work." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist																									
+@goto .CHOICE2_6
+;OPTION 2: Ask what's in the cauldron.																									
+#MagicMePart2_Choise5_2		
+
+@customSave
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "So, what's cooking?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "It's a medicinal brew for the Dutchess." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "What's she sick with?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Florence the witch put a curse on her. It's the witch they were going to execute the other day, but she escaped from the dungeon. Now every healer and scholar in the land is looking for a cure for the curse." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "What's she sick with?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "They also might burn me at the stake... I've been stuck in this laboratory for two weeks without rest. And I'm running out of time!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "How's progress?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Well, the brew needs to be darker. The book says algae should do the trick, but none of the seaweed I've used so far seemed to work." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+
+
+
+#CHOICE2_6
+
+;OPTION 1: Help the alchemist.																									
+;OPTION 2: Ask him about the laboratory.
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Help the alchemist." set:G_MagicMePart2_choses06=1  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise6_1
+@choice handler:ChatReply "Ask him about the laboratory." set:G_MagicMePart2_choses06=2  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise6_2
+@stop
+
+;OPTION 1: Help the alchemist.
+#MagicMePart2_Choise6_1
+
+@customSave
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I remembered the talk we had with Dina and Omar about the Maillard reaction which makes food darker in color." reset:true speed:20
+@print "...I also remembered Omar mentioning that monosodium glutamate was extracted from algae. I put my hand in my pocket and found the sachet the food seller had given me." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I think I might be able to help." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...While the Alchemist continued to rub his temples as he sat in his chair, I went to the fireplace and emptied the contents of the sachet into the cauldron. The brew began to boil! The Alchemist leaped to his feet." reset:true speed:20
+@hidePrinter AutorText
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "What have you done?!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45
+@print "...The alchemist grabbed his staff and approached me with a menacing look. But then he looked at the cauldron and stopped. He could not believe his eyes!" reset:true speed:20
+@hidePrinter AutorText
+																									
+@char alchemist.surprise pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.surprise pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "What did you put in there?" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.surprise pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The brew became darker, and large bubbles were popping on the surface as a smell reminiscent of the sea filled the room." reset:true speed:20
+@hidePrinter AutorText
+
+;CAPTION: +1 Magic.	
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic	
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "That's monosodium glutamate. In simple words, it is a seaweed extract. The brew became darker because of the Maillard reaction." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "I've never heard of this great scholar. Is he from your monastery?" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Uh... it's a bit more complicated." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...But the alchemist was not listening anymore. He checked the cauldron again, then he took a heavy glass jar from the shelf, pulled out a thin leaf of some plant and added it to the brew." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Amande, romande. Rubrum!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The leaf floating on the surface turned red. The alchemist was overjoyed." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Yes! Finally we're getting somewhere!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "YOU DESERVED THE ALCHEMIST'S RESPECT" reset:true speed:20
+@hidePrinter AutorText	
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...He checked something in his book, then he turned to the shelves and began to sort through the glasses, mumbling quietly to himself." reset:true speed:20																									
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Here, hold this." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide alchemist
+@hide {G_playerVisual}
+																									
+;CLOSE-UP: AN ORNATE SILVER JAR WITH RUNES OR MEDIEVAL SYMBOLS ON THE LID
+@camera offset:0,0 time:0.3
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с
+@wait 0.25
+; Change location
+@back Cream.Crossfade id:MagicMePart2 time:0.5
+
+@customSave
+
+@printer Chat
+@print "An ornate silver jar with runes or medieval symbols on the lid" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Take IT." set:G_MagicMePart2_choses06=1  do:"@hidePrinter Chat" goto:.MagicMePart2_ContinueCloseUpCream1
+@stop			
+
+#MagicMePart2_ContinueCloseUpCream1
+
+@camera offset:0,0 time:0.3
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с
+@wait 0.25
+; Change location
+@back alhimik-home-cauldron.Crossfade id:MagicMePart2 time:0.5
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "It's very pretty." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I took the jar and opened it. There was a thick and foul-smelling balm inside. As I wanted to take a closer look, I suddenly slipped on something and started to fall right into the fire..." reset:true speed:20
+@hidePrinter AutorText
+																									
+@goto .MagicMePart2_Choise6End
+
+;OPTION 2: Ask him about the laboratory.
+#MagicMePart2_Choise6_2
+
+@customSave
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I was looking at all the strange objects on the shelves. The flasks were mostly covered with dust, but I could still see the contents: plants and flowers soaked in different solutions lizards, frogs, even something that looked like tiny hearts..."  reset:true speed:20
+@hidePrinter AutorText
+
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Are all these for making medicine?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Some of them, yes. Some are magical ointments. And some are ingredients for future remedies." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+
+@char {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "And yet you still haven't invented a cure for your headaches?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I felt really bad for the Alchemist: modern painkillers were not to be invented for another 350 years."  reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+																							
+@printer AutorText pos:50,45																									
+@print "...The alchemist ignored me. He was busy adding more wood to the fireplace to make his brew bubble stronger." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Quick, give me the mandrake juice!" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "I'll look for it." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+@hide alchemist
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45
+@print "...I noticed a small silver jar, very much like the ones in which expensive face creams are sold back home. I reached for the jar. It was surprisingly heavy." reset:true speed:20
+@hidePrinter AutorText
+
+;CLOSE-UP: AN ORNATE SILVER JAR WITH RUNES OR MEDIEVAL SYMBOLS ON THE LID
+;OPTION: TAKE IT
+@camera offset:0,0 time:0.3
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с
+@wait 0.25
+; Change location
+@back Cream.Crossfade id:MagicMePart2 time:0.5
+
+@customSave
+
+@printer Chat
+@print "An ornate silver jarwith runes or medieval symbols on the lid" author:null reset:true waitInput:false		
+@choice handler:ChatReply "TAKE IT." set:G_MagicMePart2_choses06=1  do:"@hidePrinter Chat" goto:.MagicMePart2_ContinueCloseUpCream2
+@stop			
+
+#MagicMePart2_ContinueCloseUpCream2
+@camera offset:0,0 time:0.3
+;Перехід в чорний
+@back black.Crossfade id:MagicMePart2  time:0.5
+;Очікування 0.25с
+@wait 0.25
+; Change location
+@back alhimik-home-cauldron.Crossfade id:MagicMePart2 time:0.5
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "This is so pretty..." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I looked inside. There was indeed some kind of greenish balm there, which smelled strongly of rotting plants, spices and something else a scent I couldn't immediately recognize. I put the lid back on the jar." reset:true speed:20
+@hidePrinter AutorText
+
+@goto .MagicMePart2_Choise6End
+#MagicMePart2_Choise6End
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The alchemist turned around, saw the jar in my hands and rushed towards me." reset:true speed:20
+@hidePrinter AutorText
+																									
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Put that back! It's not mandrake juice! Didn't they teach you not to touch things you're not supposed to?" author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "THE ALCHEMIST DOESN'T TRUST YOU NOW" reset:true speed:20
+@hidePrinter AutorText	
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I saw the staff in his hand again. He looked like he was about to kill me." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I started running from him, but I tripped and fell. " reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.gown pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Nooooo..." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.gown pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide {G_playerVisual}
+@hide alchemist
+
+;2 SKETCH: MIA, FALLING INTO THE FLAMES
+; depend of player choise visual show proper scetch
+@if G_playerVisual=="miaBlonde"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-blonde-in-fire.Crossfade  id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaRedhead"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-redhead-in-fire.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaAsian"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-asian-in-fire.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaMulatto"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-mulatto-in-fire.Crossfade id:MagicMePart2 time:0.5
+@elseIf G_playerVisual=="miaNegro"
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia-negro-in-fire.Crossfade id:MagicMePart2 time:0.5
+@endIf																							
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...I was falling straight into the flames inside the fireplace, and there was nothing I could do to stop it..." reset:true speed:20
+@hidePrinter AutorText
+
+;#2-8. INT. DINA'S ROOM - MIA'S BED (LOC 18)
+;MIA IS WEARING HER USUAL CLOTHES AGAIN
+@camera offset:0,0 time:0.3
+@back alhimik-home-cauldron.Crossfade id:MagicMePart2 time:3
+@wait 1
+@back transition-library-Middle-Ages.Crossfade id:MagicMePart2 time:4 
+@back Dina-room-close-up-morning.Crossfade id:MagicMePart2 time:2
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I jumped up in bed. The laboratory was gone" reset:true speed:20
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45
+@print "...I was in Dina's room again. A dream. It was just a dream." reset:true speed:20
+@hidePrinter AutorText
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...Evidence of Magic was lying open on the bedside table. There was a picture on one of the pages that looked a lot like the room in my dream." reset:true speed:20
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45
+@print "...The same candles, the same fireplace with a cauldron, vials and vessels everywhere... I guess it must have been the last thing I saw before falling asleep." reset:true speed:20
+@hidePrinter AutorText
+
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Good morning! So, what are your plans for the day?" author:Dina reset:true speed:20
+@hidePrinter BubbleRight																									
+@char dina.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45
+@print "Well, we're supposed to write our essays for a writing contest. It's about the Middle Ages, and I really want to win." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@char dina.smile pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char dina.smile  pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "I have no doubt you will! I bet this book is going to be a huge help. But unfortunately you'll only be able to work with it in the library." author:Dina reset:true speed:20
+@hidePrinter BubbleRight
+@char dina.smile pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide dina
+@hide {G_playerVisual}
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...She took the book, put it away carefully, and left the room. I still had an hour or so left before class, so I decided to go get my stuff from Harmony's and get it overwith." reset:true speed:20
+@hidePrinter AutorText
+																									
+																									
+;#2-9. DORM - CORRIDOR (LOC 8)	
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back University-hostel.Crossfade id:MagicMePart2 time:0.5
+
+;IF CHOICE 2_3 VAR 1
+
+@if G_MagicMePart2_choses03==1
+@goto .G_MagicMePart2_choses03Result3
+@elseIf G_MagicMePart2_choses03==2
+@goto .G_MagicMePart2_choses03Result4
+@endIf
+
+#G_MagicMePart2_choses03Result3
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...And of course I just had to run into Harmony in the hallway!" reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Why are you still around, scarecrow? Don't you have, like, some crows to scare off somewhere?" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I wasn't about to get baited." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "Nice to see you too." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Once Harmony saw that her insults were not working, she started to get angry." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Why are you smiling? Did I say something funny?" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "No, I'm just happy I won't have to live with you. I came to get my things." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																									
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I wanted to go past Harmony into the room, but she blocked my way." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "If you're moving out, you can't come in." author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide harmony	
+@hide {G_playerVisual}																								
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony stepped into the room. A minute later, my clothes and bag came flying out." reset:true speed:20
+@hidePrinter AutorText																									
+
+;3 SKETCH: MIA WITH HER THINGS AND HER BAG
+
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia_s-things.Crossfade id:MagicMePart2 time:0.5	
+@wait 3
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back University-hostel.Crossfade id:MagicMePart2 time:0.5
+																									
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...What a deranged jerk! What was wrong with her?? I was almost done putting my stuff back into my bag when Harmony appeared in the hallway again." reset:true speed:20
+@hidePrinter AutorText
+
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Too bad I still have to see your face on campus, but at least you won't be a nuisance around the clock. Adieu!" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide harmony																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony's phone rang. She pulled it out of her bag as I glared at her with all the hatred I had in me, and then her phone just slipped out of her hand!" reset:true speed:20
+@hidePrinter AutorText
+																									
+;SPEECH BUBBLE: CRACK!
+;Same as in toilet cracked phone
+
+
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Now look what you've done, you scarecrow!! My screen is broken! You're gonna pay for this!" author:Harmony reset:true speed:20
+@hidePrinter BubbleRight
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide harmony																									
+ 
+;CAPTION: +1 Magic.
+@spawn Magic 		
+@set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...She kept yelling insults at me, but I was already on my way out." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@goto .MagicMePart2_Choise7End
+;IF CHOICE 2_3 VAR 1																									
+#G_MagicMePart2_choses03Result4																					
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...My stuff and my bag were piled on the floor next to Harmony's room." reset:true speed:20
+@hidePrinter AutorText
+
+;3 SKETCH: MIA WITH HER THINGS AND HER BAG
+; Перехід в чорний
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back Mia_s-things.Crossfade id:MagicMePart2 time:0.5	
+@wait 3
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back University-hostel.Crossfade id:MagicMePart2 time:0.5
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Such insolence made me angry, but at least I was spared from wasting time on talking to Harmony. Then I saw Neo in the hallway." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Are you going to sleep on the doormat?" author:Neo reset:true speed:20
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+@hide neo																									
+																									
+@char {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleLeft pos:50,45																									
+@print "You're not the unfunniest person on the planet, but you sure better hope he doesn't die." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft																									
+@char {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+
+
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "You're pretty funny though. So where are you going?" author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide neo																									
+@hide neo
+
+#CHOICE2_7
+
+;OPTION 1: Tell him it's none of his business.																									
+;OPTION 2: Tell him about Dina.																									
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false		
+@choice handler:ChatReply "Tell him it's none of his business" set:G_MagicMePart2_choses07=1  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise7_1 		
+@choice handler:ChatReply "Hear her out." set:G_MagicMePart2_choses07=2  do:"@hidePrinter Chat" goto:.MagicMePart2_Choise7_2
+@stop
+
+#MagicMePart2_Choise7_1
+
+@customSave
+
+;OPTION 1: Tell him it's none of his business.																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Why do you ask?" author:{G_playerName} reset:true speed:20																									
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "What if I want to come over?" author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																								
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45
+@print "Does Harmony know you're in the habit of visiting other girls?" author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+																									
+																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "She doesn't need to know because she's not my girlfriend." author:Neo reset:true speed:20
+@hidePrinter BubbleRight
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I started to laugh. Neo was standing with his back to the door, so he didn't see Harmony walking out of the room and overhearing us talk." reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45
+@print "What's so hilarious?" author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45
+@print "Her face." author:{G_playerName} reset:true speed:20																									
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide {G_playerVisual}
+@hide neo																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Neo finally noticed Harmony and looked startled. She gave me her trademark depreciating look, silently grabbed his arm and pulled him away." reset:true speed:20
+@hidePrinter AutorText																									
+
+@goto .MagicMePart2_Choise7End
+
+#MagicMePart2_Choise7_2
+
+@customSave
+
+;OPTION 2: Tell him about Dina.																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45
+@print "I made a friend. Her name is Dina" author:{G_playerName} reset:true speed:20																									
+@print "She's really smart. I can introduce you...unless you're consciously avoiding smart girls, of course." author:{G_playerName} reset:true speed:20
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45
+@print "I know Dina, she is smart. You shouldn't be mad at Harmony. She's actually pretty cool too." author:Neo reset:true speed:20
+@hidePrinter BubbleRight
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0
+@camera offset:-0.15,0 time:0.2 wait:false
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45
+@print "Oh yeah? Did an evil witch put a curse on her, forcing her to act like a jerk?" author:{G_playerName} reset:true speed:20																									
+@hidePrinter BubbleLeft
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+																									
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...Neo laughed." reset:true speed:20
+@hidePrinter AutorText
+
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "Do you need help with your stuff? I can help you carry it, and then we can go to class." author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide neo																									
+@hide {G_playerVisual}																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Why not? I let him help me. Maybe he wasn't as annoying as he seemed at first." reset:true speed:20																								
+@hidePrinter AutorText																									
+
+@goto .MagicMePart2_Choise7End
+
+#MagicMePart2_Choise7End
+;#2-10. INT. CLASSROOM (LOC 9)	
+@back black.Crossfade id:MagicMePart2 time:0.5
+; Очікування 0.25с
+@wait 0.25
+@back  audience.Crossfade id:MagicMePart2 time:0.5	
+
+@if G_MagicMePart2_choses07==1
+@goto .G_MagicMePart2_choses07Result1
+@elseIf G_MagicMePart2_choses07==2
+@goto .G_MagicMePart2_choses07Result2
+@endIf
+
+#G_MagicMePart2_choses07Result1
+;IF CHOICE 2_3 VAR 1 OR																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...When I came to class, all the students were already there. Harmony and Neo were sitting together, the only empty seat was in front of them." reset:true speed:20
+@hidePrinter AutorText	
+@camera offset:0,0 time:0.2																									
+@print "...Harmony was looking daggers at me again. A second later Adam— I mean, Professor Harrelson  walked into the classroom." reset:true speed:20																							
+@hidePrinter AutorText																									
+
+@goto .G_MagicMePart2_choses07ResultEnd
+#G_MagicMePart2_choses07Result2
+;IF CHOICE 2_7 VAR 2																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Neo and I entered the classroom. All the students were already in their seats. Neo sat next to Harmony and I took the empty seat in front of them. Harmony looked devastated." reset:true speed:20
+@hidePrinter AutorText																									
+
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Where did you go? Why are you hanging out with the witchgirl?" author:Harmony reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Chill, I was just helping her with her bag." author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide neo
+@hide harmony																									
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...Harmony was about to say something else, but then Mr. Harrelson entered the room." reset:true speed:20																									
+@hidePrinter AutorText
+
+@goto .G_MagicMePart2_choses07ResultEnd
+#G_MagicMePart2_choses07ResultEnd
+;THEN																									
+
+@char adam.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char adam.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Well, today is an exciting day for those of you who want to join the archaeological expedition. Describe who you would have been in the Middle Ages." author:"Mr.Harrelson" reset:true speed:20
+@hidePrinter BubbleRight
+@char adam.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char harmony.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Professor, can I just skip the essay? I mean, digging around in the dirt isn't something normal girls really aspire to." author:Harmony reset:true speed:20
+@hidePrinter BubbleRight																									
+@char harmony.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																									
+																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char neo.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "I agree. Sounds like it's a waste of time for girls." author:Neo reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char neo.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																								
+																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:-0.15,0 time:0.2 wait:false																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:42,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleLeft pos:50,45																									
+@print "Are you afraid I'll win?" author:{G_playerName} reset:true speed:20																									
+@hidePrinter BubbleLeft																									
+@char  {G_playerVisual}.{G_ChangeDress} pos:20,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+																																																		
+@char adam.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char adam.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45																									
+@print "Quiet, you guys. Everyone who showed up should write the essay. Think of this as your first creative assignment." author:"Mr.Harrelson" reset:true speed:20
+@hidePrinter BubbleRight																									
+@char adam.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+@hide adam	
+@hide {G_playerVisual}																								
+																								
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...And there we are, writing the essay. I tried to imagine myself in a medieval environment. Who would I be?" reset:true speed:20
+@camera offset:0,0 time:0.2	
+@hidePrinter AutorText	
+@print "...I thought about all the characters from my dreams, with their modern-day alter-egos: Florence the witch, Omar the alchemist, Bobby the knight... Who would I be? " reset:true speed:20
+@hidePrinter AutorText																									
+																									
+																									
+#CHOICE2_8
+
+
+@printer Chat                      
+@print "What's your decision?" author:null reset:true  waitInput:false 
+@choice handler:ChatReply "Florence the witch." set:G_MagicMePart2_choses08=1 do:"@hidePrinter Chat" goto:.MagicMePart2_Choise8_1
+@choice handler:ChatReply "Omar the alchemist." set:G_MagicMePart2_choses08=2 do:"@hidePrinter Chat" goto:.MagicMePart2_Choise8_2
+@choice handler:ChatReply "Bobby the knight." set:G_MagicMePart2_choses08=3 do:"@hidePrinter Chat" goto:.MagicMePart2_Choise8_3
+@stop																							
+;OPTION 1: Florence the witch.																									
+;OPTION 2: Omar the alchemist.																									
+;OPTION 3: Bobby the knight.																									
+																									
+																									
+;OPTION 1: Florence the witch.
+#MagicMePart2_Choise8_1
+
+@customSave
+
+																								
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...For some reason, I was obsessed with the witch that looked like my aunt, so I chose to write about her. I wonder what she would have done in my place. She'd probably turn Harmony into a snake." reset:true speed:20
+@hidePrinter AutorText	
+@printer AutorText pos:50,45
+@print "...Suddenly, the witch stood right before my eyes!" reset:true speed:20
+@hidePrinter AutorText																									
+																									
+@char florance.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2 wait:false																								
+@char florance.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45																									
+@print "Dear, dear. You're in such a pickle! Beware, girl. Beware the inquisitor. A price on your head has already been named!" author:Florance reset:true speed:20																									
+@hidePrinter BubbleRight																									
+@char florance.default  pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+																									
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...And then, with a eerie laugh, she was gone." reset:true speed:20																									
+@hidePrinter AutorText
+
+@goto .MagicMePart2_Choise8End
+
+#MagicMePart2_Choise8_2
+
+@customSave
+
+;OPTION 2: Omar the alchemist.																																																
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I remembered my last encounter with the alchemist. I wondered if he had succeeded in completing his cure for the Duchess. What kind of cures would I be looking for if I were a medieval alchemist?" reset:true speed:20
+@print "...Suddenly, the alchemist stood right before my eyes!" reset:true speed:20																									
+@hidePrinter AutorText
+
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0
+@camera offset:0.15,0 time:0.2
+@char alchemist.default pos:58,0 scale:0.9,0.9,1 time:0.3
+@printer BubbleRight pos:50,45
+@print "You fool! You have no idea what danger you've put yourself in! Your seaweed worked, but don't expect me to thank you. I've already taken credit for it." author:"The Alchemist" reset:true speed:20
+@hidePrinter BubbleRight
+@char alchemist.default pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false																									
+
+
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45
+@print "...The alchemist gave me a stare, and then he was gone." reset:true speed:20
+@hidePrinter AutorText
+@goto .MagicMePart2_Choise8End
+																									
+#MagicMePart2_Choise8_3
+
+@customSave
+
+;OPTION 3: Bobby the knight.																									
+																								
+@camera offset:0,0 time:0.5
+@printer AutorText pos:50,45																									
+@print "...I remembered the knight who swung his sword at me. Not a pleasant encounter. The scar still hurt. I wondered why medieval Bobby wanted to kill me. Maybe I would have hunted witches too, had I been in his shoes." reset:true speed:20
+@hidePrinter AutorText
+
+@printer AutorText pos:50,45
+@print "...Suddenly, the knight stood right before my eyes!" reset:true speed:20
+@hidePrinter AutorText
+
+@char robert.default pos:80,-10 scale:0.9,0.9,1 time:0																									
+@camera offset:0.15,0 time:0.2
+@char robert.default pos:58,0 scale:0.9,0.9,1 time:0.3																									
+@printer BubbleRight pos:50,45
+@print "I'll find you, witch! The hunt has commenced. You cannot hide from the Holy Inquisition forever, you fiend!" author:"The Knight" reset:true speed:20
+@hidePrinter BubbleRight
+@char robert.default  pos:80,-10 scale:0.9,0.9,1 time:0.2 wait:false
+																								
+																									
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...The knight was gone as abruptly as he had appeared. I suppose he wasn't interested in hearing me explain that I wasn't the witch he was looking for." reset:true speed:20
+@hidePrinter AutorText																									
+
+@goto .MagicMePart2_Choise8End
+																									
+;;;THEN;;;
+#MagicMePart2_Choise8End
+
+@camera offset:0,0 time:0.2																									
+@printer AutorText pos:50,45																									
+@print "...I was finishing my essay when I thought of Neo. I wondered who he'd be if I met him in my medieval dreams. An inquisitor, perhaps?" reset:true speed:20
+@hidePrinter AutorText	
+
+@printer AutorText pos:50,45
+@print "...Suddenly, my essay was ruined with a huge coffee spill! Harmony! She walked past me and deliberately spilled her coffee on my paper." reset:true speed:20
+@hidePrinter AutorText	
+@hide robert
+@hide florance
+@hide alchemist																								
+	
+@hideAll
+@despawnAll
+@showUI StoryFinal
+@stop
