@@ -2,41 +2,129 @@
 @back MagicMe-University-auditorium@2x
 @wait 0.25
 
-;MIA, ADAM, HARMONY, NEO	
-@char MIA.Mia_blonde-dress1-angry@3x pos:20 time:0 look:left
-@char ADAM.Adam@3x pos:20 time:0 look:left
+; MIA, ADAM, HARMONY, NEO
+@char MIA.Mia_blonde-dress1-angry@3x look:left pos:20 time:0
+@char ADAM.Adam@3x look:left pos:20 time:0
 @char NEO.Neo-happy@3x time:0.3
 @char HARMONY.Harmony-gloat@3x time:0.5
 
-;PRINTER Dialoge
+; PRINTER Dialoge
+@printer Chat
+@print "Are you insane?!" author:MIA speed:20 reset:true
 
-@print "Are you insane?!" speed:20 author:MIA reset:true
+@print "Oopsie. Sorry about that." author:Harmony speed:20
 
-@print "Oopsie. Sorry about that." speed:20 author:Harmony
+@print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." author:Neo speed:20
 
-@print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." speed:20 author:Neo
+@print "Mia, what's going on? " author:Adam speed:20
 
-@print "Mia, what's going on? " speed:20 author:Adam
+@hidePrinter 
 
-@hidePrinter
-
-;PRINTER CHOICE
+; PRINTER CHOICE
 
 @printer Chat
-@print "Complain about Harmony." author:null reset:true waitInput:false
-@choice handler:ChatReply "Steal the book." set:G_MagicMePart2_Choise2_9_Var1=1 goto:.MagicMePart2_Choise2_9_Var1 	
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice "Complain about Harmony." handler:ChatReply goto:.MagicMePart4_Choise2_9_Var1 set:G_MagicMePart4_Choise2_9_Var1=1
+@choice "Keep silent" handler:ChatReply goto:.MagicMePart4_Choise2_9_Var2 set:G_MagicMePart4_Choise2_9_Var2=2
 
 @stop
 
-;OPTION 1: Complain about Harmony.
+; OPTION 1: Complain about Harmony.
 
-#MagicMePart2_Choise2_9_Var1
-
-@print "...I couldn't let her to get away with it!"
-@print "Harmony spilled her coffee all over my essay!" speed:20 author:MIA reset:true
+# MagicMePart4_Choise2_9_Var1
+@print "...I couldn't let her to get away with it!" author:Mia
+@print "Harmony spilled her coffee all over my essay!" author:MIA speed:20 reset:true
 
 @char HARMONY.Harmony-surprise@3x time:0.5
-@print "I didn't do it on purpose, Mr. Harrelson?" speed:20 author:Harmony reset:true
+@print "I didn't do it on purpose, Mr. Harrelson?" author:Harmony speed:20 reset:true
 
-@print "But my work is ruined!" speed:20 author:MIA reset:true
-@print "How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " speed:20 author:Neo
+@print "But my work is ruined!" author:MIA speed:20 reset:true
+@print "How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " author:Neo speed:20
+@print " But my work is ruined!" author:MIA speed:20 reset:true
+@print " How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " author:Neo speed:20
+@char ADAM.Adam-angry@3x look:left pos:20 time:0
+@print "...There were some nasty chuckles in the classroom. Then Mr. Harrelson raised his voice."
+@print "Quiet, class! Mia, whatever the nature of your problem, I'm giving you extra time. So don't worry." author:Adam speed:20
+@char NEO.Neo@3x_sad time:0.3
+@print "...Neo grimaced. I had to start over." author:Mia
+
+# MagicMePart4_Choise2_9_Var2
+@print "...I wasn't sure what to do. If I exposed Harmony because of the coffee, I'd become a walking cringe. But was there enough time to rewrite the essay?" author:Mia
+@print "I'm sorry, Professor. I got distracted and caused this to happen myself." author:MIA speed:20 reset:true
+
+@char NEO.Neo-happy@3x time:0.3
+@char HARMONY.Harmony-happy@3x time:0.5
+@print "...I heard Harmony and Neo snicker behind me." author:Mia
+
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice "Make Harmony apologize (you need +5 Magic)." handler:ChatReply goto:.MagicMePart4_Choise2_10_Var1 set:G_MagicMePart4_Choise2_10_Var1=1
+@choice "Ask for extra time to rewrite the essay." handler:ChatReply goto:.MagicMePart4_Choise2_10_Var2 set:G_MagicMePart4_Choise2_10_Var2=2
+
+# MagicMePart4_Choise2_10_Var1
+@print "...I suddenly remembered that I could sometimes influence people. I pressed my eyes shut and concentrated." author:Mia
+
+@char MIA.Mia_blonde-dress1-close_eyes@3x look:left pos:20 time:0
+@print " Admit you did it." author:MIA speed:20 reset:true
+@print "...Harmony stood up and suddenly gave out the truth." 
+
+@char HARMONY.Harmony-surprise@3x time:0.5
+@print " Mr. Harrelson, it was my fault. I deliberately spilled my coffee on Mia's essay. I'm sorry, Mia!" author:HARMONY speed:20 reset:true
+
+@print "...Neo jumped. The room fell silent. But Mr. Harrelson wasn't looking at Harmony, he fixed his gaze on me. He looked both intrigued and perplexed."
+
+@print "That's nice to hear, Miss Harmony. Not that you did it, but that you had the courage to own up to it. I don't think anyone would object to Mia taking some extra time to rewrite her essay, given the circumstances." author:ADAM speed:20 reset:true
+
+@char NEO.Neo-surprise@3x time:0.3
+@print "What'd you do that for??" author:Heo speed:20 reset:true
+
+@print "...Harmony stared at him, confused."
+@char HARMONY.Harmony-surprise@3x time:0.5
+@print "What do you mean?" author:Harmony speed:20 reset:true
+@print " Why did you admit spilling the stupid coffee?" author:Heo speed:20 reset:true
+@print "Have you gone mad?? I admitted no such thing!" author:Harmony speed:20 reset:true
+@print " Now you're being plain scary. I think you need to see a doctor" author:Heo speed:20 reset:true
+
+@print "...Neo picked up his essay and went to turn it in."
+@hide NEO
+
+@char MIA.Mia_blonde-dress1-happy@3x look:left pos:20 time:0
+@print "...I gave Harmony a devious wink as she just stood there in shock..." author:Mia
+@print "Thanks for confessing. I forgive you. " author:Mia speed:20 reset:true
+
+# MagicMePart4_Choise2_10_Var2
+@print "...I figured the only sensible thing left for me to do was to ask Mr. Harrelson to give me more time to rewrite the essay." author:MIA
+@print " Well, good luck I guess. I bet you're going to win." author:Heo speed:20 reset:true
+@print "...Oddly, for a split second it seemed like Neo was not happy about how things turned out." author:MIA
+
+;CAPTION: +1 Magic.	
+@set G_MagicMe_Magic+=1
+
+;MIA, ADAM
+
+@back MagicMe-University-auditorium-table@2x
+@wait 0.25
+@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
+@char ADAM.Adam@3x time:0
+
+@if G_MagicMePart4_Choise2_9_Var1=1 
+@if G_MagicMePart4_Choise2_10_Var1=1 
+@goto .MIADONEJOB_1
+@endIf
+
+#MIADONEJOB_1
+@print "...I finished rewriting my essay, walked up to Mr. Harrelson's desk and turned it in. There was no one left in the room besides the two of us." author:MIA
+@print "Thank you, Mia. I'm sure your essay is very interesting." author:Adam speed:20 reset:true
+@print "Thank YOU. I hope you won't regret having to wait." author:MIA speed:20 reset:true
+
+@if G_MagicMePart4_Choise2_10_Var2=2
+@goto .MIABADCHOICE_1
+@endIf
+
+#MIABADCHOICE_1
+@print "...I walked up to Mr. Harrelson's desk and turned in my dripping essay." author:MIA
+@print "I'm sorry about that. I was trying to do the best I can. But maybe luck is not on my side." author:MIA speed:20 reset:true
+@print "I'm sorry too. But there will be lots of competitions to follow. You're sure to win one." author:ADAM speed:20 reset:true
+@print " I hope so." author:MIA speed:20 reset:true
+
+;THEN
