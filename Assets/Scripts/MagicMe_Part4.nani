@@ -99,6 +99,10 @@ Harmony: Oopsie. Sorry about that.
 @print "Have you gone mad?? I admitted no such thing!" author:Harmony speed:20 reset:true
 @print " Now you're being plain scary. I think you need to see a doctor" author:Heo speed:20 reset:true
 
+@char HARMONY.Harmony-angry@3x time:0.5
+@hide HARMONY
+
+@char NEO.Neo-Neo-angry@3x time:0.3
 @print "...Neo picked up his essay and went to turn it in."
 @hide NEO
 
@@ -107,8 +111,12 @@ Harmony: Oopsie. Sorry about that.
 @print "Thanks for confessing. I forgive you. " author:Mia speed:20 reset:true
 
 # MagicMePart4_Choise2_10_Var2
+@hide HARMONY
 @print "...I figured the only sensible thing left for me to do was to ask Mr. Harrelson to give me more time to rewrite the essay." author:MIA
+
 @print " Well, good luck I guess. I bet you're going to win." author:Heo speed:20 reset:true
+@hide NEO
+
 @print "...Oddly, for a split second it seemed like Neo was not happy about how things turned out." author:MIA
 
 ;CAPTION: +1 Magic.	
@@ -118,8 +126,8 @@ Harmony: Oopsie. Sorry about that.
 
 @back MagicMe-University-auditorium-table@2x
 @wait 0.25
-@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
-@char ADAM.Adam@3x time:0
+@char MIA.Mia_blonde-dress1@3x look:left pos:80,0 time:0
+@char ADAM.Adam@3x look:Right pos:10,0 time:0
 
 @if G_MagicMePart4_Choise2_9_Var1=1 
 @if G_MagicMePart4_Choise2_10_Var1=1 
@@ -128,7 +136,11 @@ Harmony: Oopsie. Sorry about that.
 
 #MIADONEJOB_1
 @print "...I finished rewriting my essay, walked up to Mr. Harrelson's desk and turned it in. There was no one left in the room besides the two of us." author:MIA
+
+@char ADAM.Adam-happy@3x look:Right pos:20,0 time:0
 @print "Thank you, Mia. I'm sure your essay is very interesting." author:Adam speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-happy@3x look:left pos:70,0 time:0
 @print "Thank YOU. I hope you won't regret having to wait." author:MIA speed:20 reset:true
 
 @if G_MagicMePart4_Choise2_10_Var2=2
