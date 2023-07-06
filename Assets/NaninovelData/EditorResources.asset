@@ -381,42 +381,12 @@ MonoBehaviour:
     - name: Harmony-gloat@3x
       pathPrefix: Characters/HARMONY
       guid: 00f5837694256f248983df7293168c34
-    - name: Harmony-gown-happy@3x
-      pathPrefix: Characters/HARMONY
-      guid: c09a6e8afa0689b458fa0ae2ef1948a2
-    - name: Harmony-gown-sad@3x
-      pathPrefix: Characters/HARMONY
-      guid: ee07da18a38e05e4e83728feccbe8305
-    - name: Harmony-gown-surprise@3x
-      pathPrefix: Characters/HARMONY
-      guid: 6209f27e39465c4479ab489c993d1051
     - name: Harmony-gown@3x
       pathPrefix: Characters/HARMONY
       guid: 888d24039863be2499e4cc49e83d520a
     - name: Harmony-happy@3x
       pathPrefix: Characters/HARMONY
       guid: c366e7acf8900664eb988aa8d8475798
-    - name: Harmony-in-dress-angry@3x
-      pathPrefix: Characters/HARMONY
-      guid: effc6cefb266d034fa0edf6819f1c483
-    - name: Harmony-in-dress-gloat@3x
-      pathPrefix: Characters/HARMONY
-      guid: 6f8cdc8b8bdec45428f97e7519d92b9f
-    - name: Harmony-in-dress-happy@3x
-      pathPrefix: Characters/HARMONY
-      guid: bcc59e93111d60b4ba9f0ba7e1b51116
-    - name: Harmony-in-dress-skeptical@3x
-      pathPrefix: Characters/HARMONY
-      guid: bb2b193d9c2460140bfb27db8f08dc99
-    - name: Harmony-in-dress-surprise@3x
-      pathPrefix: Characters/HARMONY
-      guid: 4f50f949f69fd7641958655155b67b66
-    - name: Harmony-in-dress@3x
-      pathPrefix: Characters/HARMONY
-      guid: 2ec20946cd2e7d64ea1b6d3813452b92
-    - name: Harmony-in-sport@3x
-      pathPrefix: Characters/HARMONY
-      guid: 158f9e659c26d2146ac6646a7028893c
     - name: Harmony-skeptical@3x
       pathPrefix: Characters/HARMONY
       guid: 901c27f24c75ac8419f1d573ac9d2aaf

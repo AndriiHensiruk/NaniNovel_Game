@@ -2,15 +2,41 @@
 @back MagicMe-University-auditorium@2x
 @wait 0.25
 
-@char MIA.Mia_blonde-dress1-angry@3x pos:20 time:0 look:right
+;MIA, ADAM, HARMONY, NEO	
+@char MIA.Mia_blonde-dress1-angry@3x pos:20 time:0 look:left
+@char ADAM.Adam@3x pos:20 time:0 look:left
 @char NEO.Neo-happy@3x time:0.3
 @char HARMONY.Harmony-gloat@3x time:0.5
 
+;PRINTER Dialoge
+
 @print "Are you insane?!" speed:20 author:MIA reset:true
+
 @print "Oopsie. Sorry about that." speed:20 author:Harmony
+
 @print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." speed:20 author:Neo
+
+@print "Mia, what's going on? " speed:20 author:Adam
+
 @hidePrinter
 
+;PRINTER CHOICE
 
+@printer Chat
+@print "Complain about Harmony." author:null reset:true waitInput:false
+@choice handler:ChatReply "Steal the book." set:G_MagicMePart2_Choise2_9_Var1=1 goto:.MagicMePart2_Choise2_9_Var1 	
 
 @stop
+
+;OPTION 1: Complain about Harmony.
+
+#MagicMePart2_Choise2_9_Var1
+
+@print "...I couldn't let her to get away with it!"
+@print "Harmony spilled her coffee all over my essay!" speed:20 author:MIA reset:true
+
+@char HARMONY.Harmony-surprise@3x time:0.5
+@print "I didn't do it on purpose, Mr. Harrelson?" speed:20 author:Harmony reset:true
+
+@print "But my work is ruined!" speed:20 author:MIA reset:true
+@print "How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " speed:20 author:Neo
