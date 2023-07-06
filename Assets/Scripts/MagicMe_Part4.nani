@@ -1,2 +1,16 @@
+# Start
+@back MagicMe-University-auditorium@2x
+@wait 0.25
+
+@char MIA.Mia_blonde-dress1-angry@3x pos:20 time:0 look:right
+@char NEO.Neo-happy@3x time:0.3
+@char HARMONY.Harmony-gloat@3x time:0.5
+
+@print "Are you insane?!" speed:20 author:MIA reset:true
+@print "Oopsie. Sorry about that." speed:20 author:Harmony
+@print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." speed:20 author:Neo
+@hidePrinter
+
+
 
 @stop

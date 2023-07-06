@@ -168,6 +168,315 @@ MonoBehaviour:
       guid: dd85ce99288c2f8488447fa511b1c0d6
   - Id: Scripts
     Resources:
+    - name: Title
+      pathPrefix: Scripts
+      guid: 55427276decd1bb42ad58f84059631a3
     - name: MagicMe_Part4
       pathPrefix: Scripts
       guid: 1ee9ba3e83f8651468c9225f2f0f2ae0
+  - Id: Backgrounds/6a6b517b-5b2a-4174-990a-cf38dbea42a7
+    Resources:
+    - name: Dina_room-close-up@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 80a7a1fcf077f814b86aca52922323e2
+    - name: Dina_room-close-up@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 62ab6b31811bcf84395dafcaa6ee9031
+    - name: Dina_room@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 470cd9fa3aa382a4eb48c9771d78b88c
+    - name: Dina_room@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 92bdb4b3acf14bc48ae724055dea1f21
+    - name: Flo-hause-long
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3ecba94baedbc7843b39651b39f7537b
+    - name: Food_street@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4bb0e21382a6434448b3566a6c375602
+    - name: Food_street@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 11da0c425b9f2214d9068d8b4ee1afa1
+    - name: library-table@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: ada119ff005bbb34e90ad562ac5ab739
+    - name: library_interior@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: af1f5bed3d6c3c643868c6450d3de53c
+    - name: MagicMe-Adam-car@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8698d284bb13db54e84126b89d01156c
+    - name: MagicMe-Adam-car@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 53e54281e7fa1f0409a7df9436a82cd8
+    - name: MagicMe-Bus-stop@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: d66747993d2763e4292e2713338405bc
+    - name: MagicMe-Bus-stop@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 104526aaf6a3cee449faa041afa185ef
+    - name: MagicMe-Flo-hause@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 99e98b265e418b74f983f4108202ccc1
+    - name: MagicMe-Flo-hause@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: fb9bb111455a03f4aa184faab0a324ec
+    - name: MagicMe-Flo-kitchen@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 4a5757a5639f55249b0dcaab4b378a69
+    - name: MagicMe-Flo-kitchen@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 71960b3f5d9836b4eb56ca9204465f0b
+    - name: MagicMe-Harmony-room@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 56aeced7717fb2842989d6b4fe6422fc
+    - name: MagicMe-Harmony-room@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2c3467543ac9e7742b1351467ceeb70c
+    - name: MagicMe-Medieval-city@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 8421987a76f4c59488c5c1c76fdda8e5
+    - name: MagicMe-Medieval-city@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6a62c0cf6f77885479ee78550acb9369
+    - name: MagicMe-Medieval-prison@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: de5fbc2fe9f88b346b86793d1aed1031
+    - name: MagicMe-Medieval-prison@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 7d0b6c6384e63e741805415d043fbd78
+    - name: MagicMe-Mia_room1@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: ac6a908a44fe27d498b5742ae41f4ca5
+    - name: MagicMe-Mia_room1@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 17d3dabba928b4340ada232ea924a2e6
+    - name: MagicMe-Mia_room2@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: a8a467eb41286224ea111fad1905e892
+    - name: MagicMe-University-auditorium-table@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 427424974c19b4b479f56b47b98d528f
+    - name: MagicMe-University-auditorium-table@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: e7c82aab905d3824bbedae0e83cc240c
+    - name: MagicMe-University-auditorium@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 2f9c00054efca674f9bb98bbddac722c
+    - name: MagicMe-University-auditorium@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 67095dacf718d1a41b33ecfe00bf8c8b
+    - name: MagicMe-University-hallway@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 7a0ab669f2ae3144a873d862d7b60435
+    - name: MagicMe-University-hallway@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: b2ebd353192f5c848abf91ca2f72d5b5
+    - name: MagicMe-University-lawn@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 80478baad9b837649991c30639be2abc
+    - name: MagicMe-University-lawn@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: cf230f026d444d24c9b493a6340bd261
+    - name: Mia_room-long
+      pathPrefix: Backgrounds/MainBackground
+      guid: 3bfc8db90f0afe944b37aa3c07a5219b
+    - name: Toilet_greensquare@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: e4517df8ae8273f49ac7457e8e222904
+    - name: Toilet_greensquare@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: b9798bcb3e15af3419456d37d5118b1b
+    - name: transition-library-Middle-Ages@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 6f38d1cc7df1dd64eac231d0e36d984e
+    - name: transition-library-Middle-Ages@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 500ffd8947e3b0d4e805b462b5a0d875
+    - name: transition-Middle-Ages-library@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 053cdd1bedf5e1e43b34b8dde2b5549e
+    - name: transition-Middle-Ages-library@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 030d18fa4ee899e459857ef7ec317753
+    - name: University_lawn-day@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: c051671b7a626bf40a76c0c054b6080d
+    - name: University_lawn-day@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: fe7aa4a9bb3871049a48da3592f9a87e
+    - name: University_lawn-night@2x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 702563e1e647f7740987623b0588ad05
+    - name: University_lawn-night@3x
+      pathPrefix: Backgrounds/MainBackground
+      guid: 964ed1833e0c80a43981139a81ece07b
+  - Id: CharacterAvatars
+    Resources: []
+  - Id: Characters/854dae1e-9d74-4319-8618-17ff817f1ca9
+    Resources:
+    - name: Mia_blonde-dress1-angry@3x
+      pathPrefix: Characters/MIA
+      guid: 484e934c72199c34ea4ea8916c9050e9
+    - name: Mia_blonde-dress1-close_eyes@3x
+      pathPrefix: Characters/MIA
+      guid: caa0855f59717074c8382dc3ed0ff66e
+    - name: Mia_blonde-dress1-happy@3x
+      pathPrefix: Characters/MIA
+      guid: 6f92b96b92d2262428b56d99489951ad
+    - name: Mia_blonde-dress1-sad@3x
+      pathPrefix: Characters/MIA
+      guid: be5c1e877b90ac64691d4bce9b2e127a
+    - name: Mia_blonde-dress1-surprise@3x
+      pathPrefix: Characters/MIA
+      guid: 35ab62647f970d2488c3bc930a9d06f4
+    - name: Mia_blonde-dress1@3x
+      pathPrefix: Characters/MIA
+      guid: 08e90656c0384df49b28bf808380f102
+  - Id: Characters/b68bc9f4-554c-4678-a22f-6f3e262b814f
+    Resources:
+    - name: Omar-angry@3x
+      pathPrefix: Characters/OMAR
+      guid: 0cd1210e1c4fb944a8e0381cd98acbaa
+    - name: Omar-happy@3x
+      pathPrefix: Characters/OMAR
+      guid: e49c0866cd7458446abd1ea996818d88
+    - name: Omar-skeptical@3x
+      pathPrefix: Characters/OMAR
+      guid: 45aa6c39057851845a0be85242c007b4
+    - name: Omar-surprise@3x
+      pathPrefix: Characters/OMAR
+      guid: 1e29b297c65cea64ba893631435f2021
+    - name: Omar@3x
+      pathPrefix: Characters/OMAR
+      guid: 28c16a02acf196e4ebb1741dafdafc00
+  - Id: Characters/b315a71a-15be-4bb6-932f-c6c550f915b7
+    Resources:
+    - name: Dina-sad@3x
+      pathPrefix: Characters/DINA
+      guid: 697f589993087604bb36fc67ca96e503
+    - name: Dina-smile@3x
+      pathPrefix: Characters/DINA
+      guid: eba61a2ce5d07944687c4c5a82f2ecc3
+    - name: Dina-surprise@3x
+      pathPrefix: Characters/DINA
+      guid: acab50c7e7c492447985d2f3d7d04d7b
+    - name: Dina@3x
+      pathPrefix: Characters/DINA
+      guid: 7962b425980ba4a4198e874f10fb5956
+    - name: Dina_in_dress-happy@3x
+      pathPrefix: Characters/DINA
+      guid: f60d3a0c07c9657458d09d6326c132bf
+    - name: Dina_in_dress-surprise@3x
+      pathPrefix: Characters/DINA
+      guid: fb923d222dada3346a4228d06b5dd4ce
+    - name: Dina_in_dress@3x
+      pathPrefix: Characters/DINA
+      guid: fb0c67181e69e20478aafc391f0246ab
+  - Id: Characters/2beaaaac-32be-4a92-99ab-962f881bfb7b
+    Resources:
+    - name: Harmony-angry@3x
+      pathPrefix: Characters/HARMONY
+      guid: f573a066b4e63084bb518421f77eb95b
+    - name: Harmony-gloat@3x
+      pathPrefix: Characters/HARMONY
+      guid: 00f5837694256f248983df7293168c34
+    - name: Harmony-gown-happy@3x
+      pathPrefix: Characters/HARMONY
+      guid: c09a6e8afa0689b458fa0ae2ef1948a2
+    - name: Harmony-gown-sad@3x
+      pathPrefix: Characters/HARMONY
+      guid: ee07da18a38e05e4e83728feccbe8305
+    - name: Harmony-gown-surprise@3x
+      pathPrefix: Characters/HARMONY
+      guid: 6209f27e39465c4479ab489c993d1051
+    - name: Harmony-gown@3x
+      pathPrefix: Characters/HARMONY
+      guid: 888d24039863be2499e4cc49e83d520a
+    - name: Harmony-happy@3x
+      pathPrefix: Characters/HARMONY
+      guid: c366e7acf8900664eb988aa8d8475798
+    - name: Harmony-in-dress-angry@3x
+      pathPrefix: Characters/HARMONY
+      guid: effc6cefb266d034fa0edf6819f1c483
+    - name: Harmony-in-dress-gloat@3x
+      pathPrefix: Characters/HARMONY
+      guid: 6f8cdc8b8bdec45428f97e7519d92b9f
+    - name: Harmony-in-dress-happy@3x
+      pathPrefix: Characters/HARMONY
+      guid: bcc59e93111d60b4ba9f0ba7e1b51116
+    - name: Harmony-in-dress-skeptical@3x
+      pathPrefix: Characters/HARMONY
+      guid: bb2b193d9c2460140bfb27db8f08dc99
+    - name: Harmony-in-dress-surprise@3x
+      pathPrefix: Characters/HARMONY
+      guid: 4f50f949f69fd7641958655155b67b66
+    - name: Harmony-in-dress@3x
+      pathPrefix: Characters/HARMONY
+      guid: 2ec20946cd2e7d64ea1b6d3813452b92
+    - name: Harmony-in-sport@3x
+      pathPrefix: Characters/HARMONY
+      guid: 158f9e659c26d2146ac6646a7028893c
+    - name: Harmony-skeptical@3x
+      pathPrefix: Characters/HARMONY
+      guid: 901c27f24c75ac8419f1d573ac9d2aaf
+    - name: Harmony-surprise@3x
+      pathPrefix: Characters/HARMONY
+      guid: 6683012c059b8b44e8e034a67ec5d1ca
+    - name: Harmony@3x
+      pathPrefix: Characters/HARMONY
+      guid: 103711894da3a2b4891a4a00f6f1d617
+  - Id: Characters/17920cd8-81e9-4c41-9bbf-bb5714e8e63e
+    Resources:
+    - name: Adam-angry@3x
+      pathPrefix: Characters/ADAM
+      guid: c825852823e03d74ca0852d251e8313c
+    - name: Adam-happy@3x
+      pathPrefix: Characters/ADAM
+      guid: e911867728bbc6d4fb2fceeb69e843e5
+    - name: Adam-skeptical@3x
+      pathPrefix: Characters/ADAM
+      guid: e9e9a588c5fe13a4e95b4b337856637d
+    - name: Adam-surprised@3x
+      pathPrefix: Characters/ADAM
+      guid: 346eb29026badc648abc789359ab4610
+    - name: Adam@3x
+      pathPrefix: Characters/ADAM
+      guid: 3e64356f49a360e43ac38529a9fefa18
+  - Id: Characters/cc63774f-d265-466a-8973-530f0e1d11c5
+    Resources:
+    - name: Neo-angry@3x
+      pathPrefix: Characters/NEO
+      guid: 416197734b85e5e4094e486a934625bf
+    - name: Neo-happy@3x
+      pathPrefix: Characters/NEO
+      guid: cfa054703d2066f4cbd2547bba88a471
+    - name: Neo-skeptical@3x
+      pathPrefix: Characters/NEO
+      guid: 1dafdc79864fca94e963e4993813650a
+    - name: Neo-surprise@3x
+      pathPrefix: Characters/NEO
+      guid: 9c5a3c8573b908248abbe061efea720d
+    - name: Neo@3x sad
+      pathPrefix: Characters/NEO
+      guid: 50e58abcd0fd93f4aa8049407a3e2751
+    - name: Neo@3x
+      pathPrefix: Characters/NEO
+      guid: 621448a066d5edd4ab1177ceab090353
+  - Id: Characters/7939966c-a828-47ec-bbae-3b1acaa10fe7
+    Resources:
+    - name: Bobby-angry@3x
+      pathPrefix: 'Characters/BOBBY '
+      guid: 8f0486a88d221314a9096dbd9a9e8888
+    - name: Bobby-happy@3x
+      pathPrefix: 'Characters/BOBBY '
+      guid: eadcb060687e2794baf22ac9c9f018ec
+    - name: Bobby-sad@3x
+      pathPrefix: 'Characters/BOBBY '
+      guid: 5cd2574191c1ccc4c9088fc6f5e72d6d
+    - name: Bobby-surprise@3x
+      pathPrefix: 'Characters/BOBBY '
+      guid: 74ee24ca8535d4e44b76ceff851109e2
+    - name: Bobby@3x
+      pathPrefix: 'Characters/BOBBY '
+      guid: e1d2e4974e54a8c49904afb78867ca17
