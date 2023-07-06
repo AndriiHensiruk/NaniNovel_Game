@@ -3,22 +3,24 @@
 @wait 0.25
 
 ; MIA, ADAM, HARMONY, NEO
-@char MIA.Mia_blonde-dress1-angry@3x look:left pos:20 time:0
-@char ADAM.Adam@3x look:left pos:20 time:0
-@char NEO.Neo-happy@3x time:0.3
-@char HARMONY.Harmony-gloat@3x time:0.5
 
 ; PRINTER Dialoge
-@printer Chat
-@print "Are you insane?!" author:MIA speed:20 reset:true
+@printer Wide
 
-@print "Oopsie. Sorry about that." author:Harmony speed:20
+@char MIA.Mia_blonde-dress1-angry@3x look:left pos:80,0
+Mia: Are you insane?!
 
+
+@char HARMONY.Harmony-gloat@3x time:0.5
+Harmony: Oopsie. Sorry about that.
+
+@char NEO.Neo-happy@3x time:0.3
 @print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." author:Neo speed:20
 
+@char ADAM.Adam@3x look:left  pos:70,0
 @print "Mia, what's going on? " author:Adam speed:20
 
-@hidePrinter 
+@hidePrinter wait:false
 
 ; PRINTER CHOICE
 
@@ -32,6 +34,7 @@
 ; OPTION 1: Complain about Harmony.
 
 # MagicMePart4_Choise2_9_Var1
+@char MIA.Mia_blonde-dress1-sad@3x look:left  pos:80,0
 @print "...I couldn't let her to get away with it!" author:Mia
 @print "Harmony spilled her coffee all over my essay!" author:MIA speed:20 reset:true
 
@@ -39,22 +42,32 @@
 @print "I didn't do it on purpose, Mr. Harrelson?" author:Harmony speed:20 reset:true
 
 @print "But my work is ruined!" author:MIA speed:20 reset:true
+
+@char NEO.Neo-angry@3x time:0.3
 @print "How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " author:Neo speed:20
+
 @print " But my work is ruined!" author:MIA speed:20 reset:true
+
 @print " How do we know you didn't want it ruined? You could've tripped Harmony intentionally. I mean, this way nobody gets to see your incapability to write anything coherent. " author:Neo speed:20
-@char ADAM.Adam-angry@3x look:left pos:20 time:0
+
+@char ADAM.Adam-angry@3x look:left pos:70,0 time:0
 @print "...There were some nasty chuckles in the classroom. Then Mr. Harrelson raised his voice."
 @print "Quiet, class! Mia, whatever the nature of your problem, I'm giving you extra time. So don't worry." author:Adam speed:20
+
 @char NEO.Neo@3x_sad time:0.3
 @print "...Neo grimaced. I had to start over." author:Mia
 
 # MagicMePart4_Choise2_9_Var2
+@printer Wide
 @print "...I wasn't sure what to do. If I exposed Harmony because of the coffee, I'd become a walking cringe. But was there enough time to rewrite the essay?" author:Mia
 @print "I'm sorry, Professor. I got distracted and caused this to happen myself." author:MIA speed:20 reset:true
 
 @char NEO.Neo-happy@3x time:0.3
 @char HARMONY.Harmony-happy@3x time:0.5
+
 @print "...I heard Harmony and Neo snicker behind me." author:Mia
+
+@hidePrinter wait:false
 
 @printer Chat
 @print "What's your decision?" author:null reset:true waitInput:false
@@ -64,7 +77,7 @@
 # MagicMePart4_Choise2_10_Var1
 @print "...I suddenly remembered that I could sometimes influence people. I pressed my eyes shut and concentrated." author:Mia
 
-@char MIA.Mia_blonde-dress1-close_eyes@3x look:left pos:20 time:0
+@char MIA.Mia_blonde-dress1-close_eyes@3x look:left pos:80 time:0
 @print " Admit you did it." author:MIA speed:20 reset:true
 @print "...Harmony stood up and suddenly gave out the truth." 
 
@@ -79,6 +92,7 @@
 @print "What'd you do that for??" author:Heo speed:20 reset:true
 
 @print "...Harmony stared at him, confused."
+
 @char HARMONY.Harmony-surprise@3x time:0.5
 @print "What do you mean?" author:Harmony speed:20 reset:true
 @print " Why did you admit spilling the stupid coffee?" author:Heo speed:20 reset:true
@@ -128,3 +142,45 @@
 @print " I hope so." author:MIA speed:20 reset:true
 
 ;THEN
+
+@print " I meant to ask you, did you read the book I recommended? Did anything you read there come in handy today?" author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
+@print "...It would have been embarrassing to admit that I fell asleep each time I attempted to read it." author:MIA
+@print " Not yet... I mean, I checked the book out, but... There's so much in there, I haven't really grasped it yet..." author:MIA speed:20 reset:true
+
+@print "...Mr. Harrelson kept peering at me closely."
+
+@print "No wonder. This book, how should I say this, is of profound depth and contains many layers of knowledge. Well, I hope you continue working with it." author:ADAM speed:20 reset:true
+
+@print "...I nodded and turned toward the exit. Mr. Harrelson called out to me." author:MIA
+@print "Mia, how would you like to grab some dinner and talk things over? " author:ADAM speed:20 reset:true
+@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
+@char ADAM.Adam-angry@3x look:left pos:20 time:0
+@print "...I felt blood rushing to my face. Was flirting with me?? That wouldn't be right... Would it?" author:MIA
+@print " I suggest we meet at Green Square Cafe here on campus. I'd be happy to tell you a bit about my scientific discoveries...and learn more about your plans with regard to science and learning." author:ADAM speed:20 reset:true
+
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice " It's a chance to get to know him better." handler:ChatReply goto:.MagicMePart4_Choise2_11_Var1 set:G_MagicMePart4_Choise2_11_Var1=1
+@choice " It's better to refuse." handler:ChatReply goto:.MagicMePart4_Choise2_11_Var2 set:G_MagicMePart4_Choise2_11_Var2=2
+
+# MagicMePart4_Choise2_11_Var1
+@print "...I figured Mr. Harrelson probably needed a research assistant or something, and I looked like a promising student to him. It was stupid to think he was flirting. But the idea of spending some time with him sounded so nice..." author:MIA
+@print "Sure. When is a good time for you?" author:MIA speed:20 reset:true
+
+@print "...Mr. Harrelson briefly checked the calendar in his phone." author:MIA
+@char ADAM.Adam-angry@3x look:left pos:20 time:0
+@print " Six o'clock. Can you make it?" author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
+@print "...Our eyes were locked...I couldn't look away. It felt like his eyes are pulling me in..." author:MIA
+@print " I'm sorry..." author:MIA speed:20 reset:true
+@print "So, six o'clock at Green Square?" author:ADAM speed:20 reset:true
+@print "Yup. See you there!" author:MIA speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1@3x look:left pos:20 time:0
+@print "...Mr. Harrelson nodded and started packing up the student essays. I walked out of the classroom." author:MIA
+@print "ADAM IS GRATEFUL FOR YOUR TRUST"
+
+# MagicMePart4_Choise2_11_Var2

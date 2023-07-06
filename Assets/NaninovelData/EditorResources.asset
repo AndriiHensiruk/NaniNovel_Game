@@ -315,6 +315,9 @@ MonoBehaviour:
     Resources: []
   - Id: Characters/854dae1e-9d74-4319-8618-17ff817f1ca9
     Resources:
+    - name: Mia_blonde-dress1@3x
+      pathPrefix: Characters/MIA
+      guid: 08e90656c0384df49b28bf808380f102
     - name: Mia_blonde-dress1-angry@3x
       pathPrefix: Characters/MIA
       guid: 484e934c72199c34ea4ea8916c9050e9
@@ -330,9 +333,6 @@ MonoBehaviour:
     - name: Mia_blonde-dress1-surprise@3x
       pathPrefix: Characters/MIA
       guid: 35ab62647f970d2488c3bc930a9d06f4
-    - name: Mia_blonde-dress1@3x
-      pathPrefix: Characters/MIA
-      guid: 08e90656c0384df49b28bf808380f102
   - Id: Characters/b68bc9f4-554c-4678-a22f-6f3e262b814f
     Resources:
     - name: Omar-angry@3x
@@ -381,9 +381,6 @@ MonoBehaviour:
     - name: Harmony-gloat@3x
       pathPrefix: Characters/HARMONY
       guid: 00f5837694256f248983df7293168c34
-    - name: Harmony-gown@3x
-      pathPrefix: Characters/HARMONY
-      guid: 888d24039863be2499e4cc49e83d520a
     - name: Harmony-happy@3x
       pathPrefix: Characters/HARMONY
       guid: c366e7acf8900664eb988aa8d8475798
@@ -427,7 +424,7 @@ MonoBehaviour:
     - name: Neo-surprise@3x
       pathPrefix: Characters/NEO
       guid: 9c5a3c8573b908248abbe061efea720d
-    - name: Neo@3x sad
+    - name: Neo@3x_sad
       pathPrefix: Characters/NEO
       guid: 50e58abcd0fd93f4aa8049407a3e2751
     - name: Neo@3x
