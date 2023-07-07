@@ -333,46 +333,6 @@ MonoBehaviour:
     - name: Mia_blonde-dress1-surprise@3x
       pathPrefix: Characters/MIA
       guid: 35ab62647f970d2488c3bc930a9d06f4
-  - Id: Characters/b68bc9f4-554c-4678-a22f-6f3e262b814f
-    Resources:
-    - name: Omar-angry@3x
-      pathPrefix: Characters/OMAR
-      guid: 0cd1210e1c4fb944a8e0381cd98acbaa
-    - name: Omar-happy@3x
-      pathPrefix: Characters/OMAR
-      guid: e49c0866cd7458446abd1ea996818d88
-    - name: Omar-skeptical@3x
-      pathPrefix: Characters/OMAR
-      guid: 45aa6c39057851845a0be85242c007b4
-    - name: Omar-surprise@3x
-      pathPrefix: Characters/OMAR
-      guid: 1e29b297c65cea64ba893631435f2021
-    - name: Omar@3x
-      pathPrefix: Characters/OMAR
-      guid: 28c16a02acf196e4ebb1741dafdafc00
-  - Id: Characters/b315a71a-15be-4bb6-932f-c6c550f915b7
-    Resources:
-    - name: Dina-sad@3x
-      pathPrefix: Characters/DINA
-      guid: 697f589993087604bb36fc67ca96e503
-    - name: Dina-smile@3x
-      pathPrefix: Characters/DINA
-      guid: eba61a2ce5d07944687c4c5a82f2ecc3
-    - name: Dina-surprise@3x
-      pathPrefix: Characters/DINA
-      guid: acab50c7e7c492447985d2f3d7d04d7b
-    - name: Dina@3x
-      pathPrefix: Characters/DINA
-      guid: 7962b425980ba4a4198e874f10fb5956
-    - name: Dina_in_dress-happy@3x
-      pathPrefix: Characters/DINA
-      guid: f60d3a0c07c9657458d09d6326c132bf
-    - name: Dina_in_dress-surprise@3x
-      pathPrefix: Characters/DINA
-      guid: fb923d222dada3346a4228d06b5dd4ce
-    - name: Dina_in_dress@3x
-      pathPrefix: Characters/DINA
-      guid: fb0c67181e69e20478aafc391f0246ab
   - Id: Characters/2beaaaac-32be-4a92-99ab-962f881bfb7b
     Resources:
     - name: Harmony-angry@3x
@@ -430,20 +390,25 @@ MonoBehaviour:
     - name: Neo@3x
       pathPrefix: Characters/NEO
       guid: 621448a066d5edd4ab1177ceab090353
-  - Id: Characters/7939966c-a828-47ec-bbae-3b1acaa10fe7
+  - Id: Characters/d8233d22-4396-4f59-aad3-950d0f96baf2
     Resources:
-    - name: Bobby-angry@3x
-      pathPrefix: 'Characters/BOBBY '
-      guid: 8f0486a88d221314a9096dbd9a9e8888
-    - name: Bobby-happy@3x
-      pathPrefix: 'Characters/BOBBY '
-      guid: eadcb060687e2794baf22ac9c9f018ec
-    - name: Bobby-sad@3x
-      pathPrefix: 'Characters/BOBBY '
-      guid: 5cd2574191c1ccc4c9088fc6f5e72d6d
-    - name: Bobby-surprise@3x
-      pathPrefix: 'Characters/BOBBY '
-      guid: 74ee24ca8535d4e44b76ceff851109e2
-    - name: Bobby@3x
-      pathPrefix: 'Characters/BOBBY '
-      guid: e1d2e4974e54a8c49904afb78867ca17
+    - name: sad
+      pathPrefix: Characters/Dina
+      guid: 697f589993087604bb36fc67ca96e503
+    - name: smile
+      pathPrefix: Characters/Dina
+      guid: eba61a2ce5d07944687c4c5a82f2ecc3
+    - name: surprise
+      pathPrefix: Characters/Dina
+      guid: acab50c7e7c492447985d2f3d7d04d7b
+    - name: dina
+      pathPrefix: Characters/Dina
+      guid: 7962b425980ba4a4198e874f10fb5956
+  - Id: Characters/9c35076b-3ed1-40d5-b6f3-106173a87e4f
+    Resources:
+    - name: Falling_Flo@3x
+      pathPrefix: Characters/Blackmail
+      guid: a509bd9e04e7ca14f8723ab028dda064
+    - name: Jewelry@2x
+      pathPrefix: Characters/Blackmail
+      guid: 2ebfdaaab47da6043aaa7fb82aabd59d
