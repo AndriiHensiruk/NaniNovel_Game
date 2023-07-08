@@ -412,3 +412,20 @@ MonoBehaviour:
     - name: Jewelry@2x
       pathPrefix: Characters/Blackmail
       guid: 2ebfdaaab47da6043aaa7fb82aabd59d
+  - Id: Characters/a81ab5ce-aba0-4891-8ed2-8bb32d9f9c95
+    Resources:
+    - name: Bobby-angry@3x
+      pathPrefix: Characters/BOBBY
+      guid: 8f0486a88d221314a9096dbd9a9e8888
+    - name: Bobby-happy@3x
+      pathPrefix: Characters/BOBBY
+      guid: eadcb060687e2794baf22ac9c9f018ec
+    - name: Bobby-sad@3x
+      pathPrefix: Characters/BOBBY
+      guid: 5cd2574191c1ccc4c9088fc6f5e72d6d
+    - name: Bobby-surprise@3x
+      pathPrefix: Characters/BOBBY
+      guid: 74ee24ca8535d4e44b76ceff851109e2
+    - name: Bobby@3x
+      pathPrefix: Characters/BOBBY
+      guid: e1d2e4974e54a8c49904afb78867ca17

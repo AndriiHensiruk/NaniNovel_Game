@@ -475,8 +475,283 @@ Harmony: Oopsie. Sorry about that.
 
 ;CAMPUS LAWN (LOC 6)
 ;MIA, ADAM
+@back MagicMe-University-hallway@2x
 
 @if G_MagicMePart4_Choise2_9_Var1=1 
 @if G_MagicMePart4_Choise2_10_Var1=1 
 @goto .MIA_ADAM_1
 @endIf
+
+#MIA_ADAM_1
+@char ADAM.Adam@3x look:left time:0
+@char MIA.Mia_blonde-dress1@3x look:left time:0
+
+@print Wide
+@print "...We were walking down the street. I was so angry that Neo had ruined our dinner! We hadn't even talked about what we had planned. Mr. Harrelson seemed to have read my mind." author:MIA
+@print "I'm sorry, Mia. I should have known better. If the bottle hadn't been on the table, Neo would have no reason to think he has some sort of leverage to blackmail either of us. But I'm sure this will blow over soon. For what it's worth, I'm sure you have a bright future in medieval studies regardless of the contest results." author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-happy@3x
+@print "Thanks. I hope this won't cause you any problems. I really wish Neo would quit behaving like a medieval inquisitor hunting blasphemers." author:MIA speed:20 reset:true
+@print "Neo is very passionate about his studies, just like you. But I wouldn't have trusted him with the Evidence of Magic. " author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1@3x look:left time:0
+@print "Please tell me it's because you also secretly think he's a scumbag." author:MIA speed:20 reset:true
+@print "No, it's because you have to be gifted to understand this book. I can sense the gift in you, but Neo doesn't have it." author:ADAM speed:20 reset:true
+@stop
+
+@if G_MagicMePart4_Choise2_10_Var2=2 
+@goto .MIA_ADAM_2
+@endIf
+
+#MIA_ADAM_2
+@char ADAM.Adam@3x look:left time:0
+@char MIA.Mia_blonde-dress1@3x look:left time:0
+
+@print Wide
+@print "...We were walking down the street. I was so overwhelmed with Neo's gesture that I'd completely forgotten we wanted to discuss my future thesis! Mr. Harrelson seemed to have read my mind." author:MIA
+@print "That was very noble of Neo. But we haven't talked about your bright future in medieval studies." author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-happy@3x
+@print "Frankly I feel like I'm having a pretty bright present with Neo as the medieval knight in shining armour." author:MIA speed:20 reset:true
+
+@print "Neo is very passionate about his studies, just like you. But I wouldn't have trusted him with the Evidence of Magic. " author:ADAM speed:20 reset:true
+@print "Because he would bore you to death with nerdy questions? " author:MIA speed:20 reset:true
+@print "No, it's because you have to be gifted to understand this book. I can sense the gift in you, but Neo doesn't have it." author:ADAM speed:20 reset:true
+@hidePrinter
+@stop
+
+;THEN
+@char ADAM.Adam@3x look:left time:0
+@char MIA.Mia_blonde-dress1@3x look:left time:0
+
+@print " There's something seriously fascinating about that book..." author:MIA speed:20 reset:true
+@print  "Is there something you want to tell me? " author:ADAM speed:20 reset:true
+
+;CHOICE 2_13
+
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice "Tell him about your dreams." handler:ChatReply goto:.MagicMePart4_Choise2_13_Var1 set:G_MagicMePart4_Choise2_13_Var1=1
+@choice "Don't tell him about the dreams." handler:ChatReply goto:.MagicMePart4_Choise2_13_Var2 set:G_MagicMePart4_Choise2_13_Var2=2
+@choice "Ask him about the balm." handler:ChatReply goto:.MagicMePart4_Choise2_13_Var3 set:G_MagicMePart4_Choise2_13_Var3=3
+
+#MagicMePart4_Choise2_13_Var1
+@print "...Perhaps Mr. Harrelson could explain to me why I kept dozing off while reading Evidence of Magic." author:MIA 
+@print "I know this is going to sound deranged, but every time I open that book, it absorbs me, as if I'm not a reader anymore, but rather someone inside of it." author:MIA speed:20 reset:true
+@print  " No wonder. Like I said, you're gifted. There's an interesting legend about this book. " author:ADAM speed:20 reset:true
+@print " I'd love to hear it." author:MIA speed:20 reset:true
+@print  " It is said to have a will of its own. Chosen ones are allowed to dive deep between its pages into another reality, to the past." author:ADAM speed:20 reset:true
+@print "...Was he serious?! I stared at him in astonishment." author:MIA 
+
+@char ADAM.Adam-happy@3x look:left time:0
+@print  "  I know, I know, you're going to say the legend is just a metaphor for something very engaging." author:ADAM speed:20 reset:true
+@print  "Well, the Middle Ages are full of engaging metaphors. I don't blame people for being obsessed with witchery and alchemical mysteries." author:MIA speed:20 reset:true
+@print  " I hope that one day you can think about it without ruling out the possibility that miracles exist." author:ADAM speed:20 reset:true
+
+@goto .THE_TATTOO
+@stop
+
+#MagicMePart4_Choise2_13_Var2
+@printer Wide
+@print "...I was about to tell Mr. Harrelson about my bizarre dreams, but then I changed my mind. He would probably just think I'm detached from reality or making things up." author:MIA 
+@print  "Not really. Never mind." author:MIA speed:20 reset:true
+@print  "There's an interesting legend about this book." author:ADAM speed:20 reset:true
+@print  "What is it?" author:MIA speed:20 reset:true
+@print  "It is said to have a will of its own. Chosen ones are allowed to dive deep between its pages into another reality, to the past." author:ADAM speed:20 reset:true
+@print "...Was he serious?! I stared at him in astonishment." author:MIA
+
+@char ADAM.Adam-happy@3x look:left time:0
+@print  "I know, I know, you're going to say the legend is just a metaphor for something very engaging.." author:ADAM speed:20 reset:true
+@print  "Well, the Middle Ages are full of engaging metaphors. I don't blame people for being obsessed with witchery and alchemical mysteries." author:MIA speed:20 reset:true
+@print  "Well, Miss Skepticism, I hope that one day you can open that book without ruling out the possibility that miracles exist." author:ADAM speed:20 reset:true
+
+@goto .THE_TATTOO
+@stop
+
+#MagicMePart4_Choise2_13_Var3 
+@printer Wide
+@print "...I was about to tell Mr. Harrelson about my bizarre dreams, but then I changed my mind. He would probably just think I'm detached from reality or making things up." author:MIA
+@print  " Not really. Never mind.." author:MIA speed:20 reset:true
+@print  "There's an interesting legend about this book." author:ADAM speed:20 reset:true
+@print  "What is it?" author:MIA speed:20 reset:true
+@print  "It is said to have a will of its own. Chosen ones are allowed to dive deep between its pages into another reality, to the past." author:ADAM speed:20 reset:true
+@print  " Frankly if that book has a will of its own then it wants me to fall asleep each time I open it. But I've gotten to the part about the alchemist looking for a witchcraft-reversing cure. There was a picture of the alchemist's lab, and I noticed a peculiar little silver jar..." author:MIA speed:20 reset:true
+@print  "Yes, it was known as Shapeshifter's Salve. It was supposedly a kind of magic balm that witches used to change their appearance." author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-surprise@3x
+@print  "You mean, for turning into black cats and rabbits?" author:MIA speed:20 reset:true
+@print  "They could take any form, and even pretend to be other people. They used it to conceal their witchcraft." author:ADAM speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1@3x
+@print  " Sounds like a cute bedtime story for kids." author:MIA speed:20 reset:true
+
+@char ADAM.Adam-happy@3x
+@print  "Legend also has it that the balm contained some extremely rare ingredients. And very foul smelling ones!" author:ADAM speed:20 reset:true
+
+@goto .TATTOO
+@stop
+
+#TATTOO
+@print  "...It had gotten chillier outside. I felt a shiver; maybe it was the cold, or maybe the stress of the day... Mr. Harrelson noticed me shaking. He took off his jacket and threw it over my shoulders." author:MIA
+@print  "Is this better? ." author:ADAM speed:20 reset:true
+@print  "....That was the last thing I needed! If somebody saw me in the prof's jacket, it certainly wouldn't look like we were having a scientific discussion. " author:MIA
+@print  "Relax, Mia, it's basic civility. You should treat it as such." author:ADAM speed:20 reset:true
+
+;@char ADAM.TATOO
+@print  "...And that's when I noticed a tattoo on his arm. Four letters: MAYA. " author:MIA
+@print  "...That was my mother's name!" author:MIA
+;@char ADAM.TATOO
+@stop
+
+;CHOICE 2_14
+
+@printer Chat
+@print "What's your decision?" author:null reset:true waitInput:false
+@choice "Ask him about the tattoo." handler:ChatReply goto:.MagicMePart4_Choise2_14_Var1 set:G_MagicMePart4_Choise2_14_Var1=1
+@choice "Asking about the tattoo is impolite!" handler:ChatReply goto:.MagicMePart4_Choise2_14_Var2 set:G_MagicMePart4_Choise2_14_Var2=2
+
+#MagicMePart4_Choise2_14_Var1
+@print  " That tattoo... is that a woman's name? " author:MIA speed:20 reset:true
+
+@if G_MagicMePart4_Choise2_13_Var1=1
+@goto .ADAM_TATOO_1
+@endIf
+
+#ADAM_TATOO_1
+@print  "It is and it isn't. Maya means illusion in Sanskrit. It is an energy that both hides the true nature of the world and ensures the diversity of its manifestations." author:ADAM speed:20 reset:true
+@print  "Sounds like you have a story to tell on any subject, Mr. Harrelson. " author:MIA speed:20 reset:true
+@print  "...Mr. Harrelson responded with a smile. We were there already, so I gave him back his jacket." author:MIA 
+@print  "I sometimes wish my students would just call me Adam. When I hear 'Mr. Harrelson', I feel the imminence of growing old and grey." author:ADAM speed:20 reset:true
+
+@if G_MagicMePart4_Choise2_13_Var2=2
+@if G_MagicMePart4_Choise2_13_Var3=3
+@goto .ADAM_TATOO_2
+@endIf
+
+#ADAM_TATOO_2
+@print  "t is and it isn't. Maya means illusion in Sanskrit. It is an energy that both hides the true nature of the world and ensures the diversity of its manifestations." author:ADAM speed:20 reset:true
+@print  "...Then Mr. Harrelson paused and smiled at me, but it was a sad kind of smile." author:MIA
+
+@char ADAM.Adam-skeptical@3x
+@print  "But it's also the name of a woman who used to mean a lot to me." author:ADAM speed:20 reset:true
+@print  "...I guessed it was one of those love stories that didn't survive through life's obstacles. But I didn't want to pry, and we were there already, so I gave Mr. Harrelson his jacket back." author:MIA
+@print  "I sometimes wish my students would just call me Adam. When I hear 'Mr. Harrelson', I feel the imminence of growing old and grey." author:ADAM speed:20 reset:true
+
+@printer Fullscreen
+@print "<b>YOU JUST LEARNED SOMETHING IMPORTANT</b>"
+@hidePrinter
+@stop
+
+#MagicMePart4_Choise2_14_Var2
+@print  "...I decided not to provoke new rumors by continuing to chat with him in public. I was worried that Mr. Harrelson was already in trouble because of me." author:MIA
+@print  "Well, we're here! Thanks for the dinner and for the jacket." author:MIA speed:20 reset:true
+@print  "I sometimes wish my students would just call me Adam. When I hear 'Mr. Harrelson', I feel the imminence of growing old and grey." author:ADAM speed:20 reset:true
+
+@printer Fullscreen
+@print "<b>YOU WERE POLITE, BUT YOU MISSED LEARNING SOMETHING IMPORTANT</b>"
+@hidePrinter
+@stop
+
+;INT. DINA'S ROOM - NIGHT (LOC 17_EVN)
+;MIA, DINA
+
+@back Dina_room@2x
+
+@char MIA.Mia_blonde-dress1@3x look:Left
+@char Dina.dina look:Right
+
+@printer Wide
+@print "...Dina was home, and she looked very impatient to hear about my dinner with Mr. Harrelson. It felt a bit awkward." author:MIA
+
+@print "Well, spill the beans, how did it go? I want to know everything. " author:Dina speed:20 reset:true 
+
+@if G_MagicMePart4_Choise2_9_Var1=1
+@if G_MagicMePart4_Choise2_10_Var1=1
+@goto .DIANA_MIA_1
+@endIf
+
+#DIANA_MIA_1
+@printer Dialogue
+@print "The dinner went fine until Neo showed up and ruined it. That stupid jerk! He took a picture of me and Mr. Harrelson, and there was a bottle of wine on the table. Neo thinks I'm seducing the prof to get that internship!" author:MIA speed:20 reset:true 
+@print " I know girls who would do that." author:Dina speed:20 reset:true 
+@print "Well, it's certainly not something I would do! I'm not stupid." author:MIA speed:20 reset:true 
+@print "Chill. Neo is just being Neo. He's not such a bad person, really. But he wants that internship so badly, I guess he's desperate." author:Dina speed:20 reset:true
+@print " I couldn't care less about what he wants. What he needs is to stop treating people like dirt." author:MIA speed:20 reset:true
+@hidePrinter
+
+@if G_MagicMePart4_Choise2_10_Var2=2
+@goto .DIANA_MIA_2
+@endIf
+
+#DIANA_MIA_2
+@printer Dialogue
+@print " Actually Neo showed up and convinced Mr. Harrelson to let me rewrite the essay. I was so weirded out!" author:MIA speed:20 reset:true
+@print "That was so nice of him! I always thought there was more to Neo than meets the eye." author:Dina speed:20 reset:true
+@print "...Dina went to bed, and I sat down to rewrite my essay before retiring for the night as well.." author:MIA
+@hidePrinter
+
+;CAMPUS LAWN - MORNING (LOC 6)
+;MIA, BOBBY
+
+@back MagicMe-University-lawn@2x
+@wait 1
+@printer Dialogue
+@char MIA.Mia_blonde-dress1-surprise@3x look:Left time:0
+@print "Bobby?! What are you doing here??" author:MIA speed:20 reset:true
+
+@char BOBBY.Bobby-happy@3x
+@print "...Bobby was standing there with a huge bag over his shoulder." author:MIA 
+@print " I missed you, so I thought I'd drop by and say hi." author:Bobby speed:20 reset:true
+@print "Why didn't you text me?" author:MIA speed:20 reset:true
+@print "Well frankly I wanted to settle in on campus before letting you know I'm here." author:Bobby speed:20 reset:true
+@print "You mean you're going to college here??" author:MIA speed:20 reset:true
+@print "Not quite. I landed a job as a security guard. So here I am. How are you doing, girl?" author:Bobby speed:20 reset:true
+
+@if G_MagicMePart4_Choise1_3_Var1=1
+@goto .BOBBY_MIA_1
+@endIf
+
+#BOBBY_MIA_1
+@print "...I was happy to see Bobby, though I hoped we wouldn't have to go back to talking about his feelings for me. But it didn't look like Bobby wanted to talk about it, either." author:MIA
+@print "That's so cool! You're going to love it here. This place is amazing." author:MIA speed:20 reset:true
+
+@if G_MagicMePart4_Choise1_3_Var2=2
+@goto .BOBBY_MIA_2
+@endIf
+
+#BOBBY_MIA_2
+@print "...I was so happy to see Bobby! As we walked towards the auditorium, I told him everything that had happened to me." author:MIA
+
+;THEN
+
+@print "Mia, you're so carried away with your new life, looks like you completely forgot about your aunt." author:Bobby speed:20 reset:true
+@print "...Ouch. That was true, and the truth hurt." author:MIA
+
+@char MIA.Mia_blonde-dress1-sad@3x
+@print "Oh bummer, you're right... She called me three times, and I still couldn't find the courage to talk to her. How is she? " author:MIA speed:20 reset:true
+@print " She's doing better. The doctor says it was just a sprain. And she's still not giving up hope that you'll come back. Or that I'll bring you back." author:Bobby speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-close_eyes@3x
+@print "What? I'm not coming back. This is the life I wanted, don't you guys get it? Things actually happen to me here! Like, I got to read this amazing book recently..." author:MIA speed:20 reset:true
+@print "Okay, okay, you like it here, I get it. I hope nobody is giving you any trouble." author:Bobby speed:20 reset:true
+@print "...I guess a hesitated for a beat too long. Bobby knew the answer immediately, and became very protective. Because Bobby was Bobby." author:MIA
+@print "Just give me a name. Tell me who is giving you a hard time, and I'm going to teach him a lesson" author:Bobby speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-happy@3x
+@print "...I laughed out loud." author:MIA
+@print "'Him'? But Bobby, what if it's a girl? " author:MIA speed:20 reset:true
+@print "...Bobby wasn't expecting that. He just stared at me, wondering if I was joking, and looked so adorable in his bewilderment that I laughed again and gave him a tight hug." author:MIA
+
+;SKETCH: MIA HUGGING BOBBY
+
+@print "I'm so glad you're here, old pal! I have sandwiches and coke, so let's celebrate your new jo " author:MIA speed:20 reset:true
+
+@char MIA.Mia_blonde-dress1-surprise@3x
+@print "...I opened the bag and took out my breakfast. Then, all of a sudden, I spotted something in my bag that wasn't supposed to be there. Not under any circumstances!" author:MIA 
+@print "...It was the little silver jar with the supposedly magic balm, the one I found in the alchemist's room just before tumbling into the flames..." author:MIA
+
+@hidePrinter
+
+
+
+
