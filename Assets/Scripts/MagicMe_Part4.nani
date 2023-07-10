@@ -35,7 +35,7 @@ Harmony: Oopsie. Sorry about that.
 ; OPTION 1: Complain about Harmony.
 
 # MagicMePart4_Choise2_9_Var1
-@char MIA.Mia_blonde-dress1-sad@3x look:left  scale:0.9,0.9,1
+@char MIA.Mia_blonde-dress1-sad@3x look:left  scale:0.9,0.9,1					
 @print "...I couldn't let her to get away with it!" reset:true speed:20
 @print "Harmony spilled her coffee all over my essay!" author:MIA speed:20 reset:true
 
@@ -161,7 +161,9 @@ Harmony: Oopsie. Sorry about that.
 @char MIA.Mia_blonde-dress1-happy@3x look:left pos:30,0 time:0
 @print "Thank YOU. I hope you won't regret having to wait." author:MIA speed:20 reset:true
 
-@stop
+@goto .MiaAdamDinner
+
+
 
 @if G_MagicMePart4_Choise2_10_Var2=2
 @goto .MIABADCHOICE_1
@@ -176,10 +178,10 @@ Harmony: Oopsie. Sorry about that.
 @print "I'm sorry too. But there will be lots of competitions to follow. You're sure to win one." author:ADAM speed:20 reset:true
 
 @print " I hope so." author:MIA speed:20 reset:true
-
-@stop
+@goto .MiaAdamDinner
 
 ;THEN
+#MiaAdamDinner
 @char ADAM.Adam@3x look:Right pos:70,0 time:0
 @print " I meant to ask you, did you read the book I recommended? Did anything you read there come in handy today?" author:ADAM speed:20 reset:true
 
@@ -224,8 +226,9 @@ Harmony: Oopsie. Sorry about that.
 @char MIA.Mia_blonde-dress1-happy@3x look:left pos:20 time:0
 @print "...Mr. Harrelson nodded and started packing up the student essays. I walked out of the classroom."  reset:true speed:20
 @print <b>"ADAM IS GRATEFUL FOR YOUR TRUST"</b>
+@hideAll
+@goto .MiaDianaRoom
 
-@stop
 
 # MagicMePart4_Choise2_11_Var2
 @char MIA.Mia_blonde-dress1-close_eyes@3x look:left pos:10 time:0
@@ -261,11 +264,12 @@ Harmony: Oopsie. Sorry about that.
 @print "<b>ADAM REALIZES YOU DON'T TRUST HIM</b>"
 
 @hide MIA
-@stop
+@goto .MiaDianaRoom
 
 ;DINA'S ROOM (LOC 17)
 
 ;MIA, DINA
+#MiaDianaRoom
 @back Dina_room@2x
 @wait 0.25
 
@@ -285,7 +289,7 @@ Harmony: Oopsie. Sorry about that.
 #MIAANSVER_1
 @print "I'm having dinner with Mr. Harrelson tonight!" author:MIA speed:30 reset:true
 @print "Wow, girl! It's your first day of college, and you've already snatched up the most handsome prof of all!" author:Dina speed:20 reset:true
-@stop
+@goto .MiaDianaUndercut
 
 @if G_MagicMePart4_Choise2_10_Var2=2 
 @goto .MIAANSVER_2
@@ -296,10 +300,10 @@ Harmony: Oopsie. Sorry about that.
 
 @char Dina.smile look:Left pos:90,0 wait:false
 @print "I don't get how these two things are connected, but congratulations! It's your first day of college, and you've already snatched up the most handsome prof of all!" author:Dina speed:20 reset:true
-@stop
+@goto .MiaDianaUndercut
 
 ;THEN
-
+#MiaDianaUndercut
 @char MIA.Mia_blonde-dress1-close_eyes@3x look:Right pos:20,0 wait:false
 @print "That's just business, I mean, it's an academic opportunity!" author:MIA speed:20 reset:true
 
@@ -327,12 +331,12 @@ Harmony: Oopsie. Sorry about that.
 @print " Oh, it's almost six. It's not polite to be late to a scientific discussion with a professor." author:MIA speed:20 reset:true
 
 @print "Especially when he's so handsome." author:Dina speed:20 reset:true
+@hideAll
 
-@hide Dina
 
 ;GREEN SQUARE CAFE - NIGHT (LOC 21)
 ;ADAM, MIA, NEO
-
+@camera offset:0,0 time:0.2	
 @back Food_street@3x
 @wait 0.25
 
@@ -425,7 +429,6 @@ Harmony: Oopsie. Sorry about that.
 
 @goto .NEO'S_THREAT
 
-@stop
 
 # MagicMePart4_Choise2_12_Var3
 @char MIA.Mia_blonde-dress1-angry@3x look:Right wait:false
@@ -434,10 +437,8 @@ Harmony: Oopsie. Sorry about that.
 @char NEO.Neo-skeptical@3x look:Right wait:false
 @print "This is a public place, you dummy. You're allowed to take photos of anyone you want here, including celebrities such as your date. " author:NEO speed:20 reset:true
 
-
 @goto .NEO'S_THREAT
 
-@stop
 
 #NEO'S_THREAT
 @char ADAM.Adam-skeptical@3x look:left time:0
@@ -458,7 +459,6 @@ Harmony: Oopsie. Sorry about that.
 @print "...Adam got up beside me. He quickly threw a few bills on the table."  reset:true speed:20
 
 @print "I'll walk you out. You shouldn't go alone when you're upset like this." author:ADAM speed:20 reset:true
-@stop
 
 @if G_MagicMePart4_Choise2_10_Var2=2
 @goto .NEO_ADAM
@@ -480,10 +480,11 @@ Harmony: Oopsie. Sorry about that.
 @print "...Then we finished our dinner and went outside." reset:true speed:20
 @hide MIA
 @hide ADAM
-@stop
+@goto .MiaAdamCampusLamp
 
 ;CAMPUS LAWN (LOC 6)
 ;MIA, ADAM
+#MiaAdamCampusLamp
 @back MagicMe-University-hallway@2x
 
 @if G_MagicMePart4_Choise2_9_Var1=1 
@@ -506,7 +507,7 @@ Harmony: Oopsie. Sorry about that.
 @char MIA.Mia_blonde-dress1@3x look:left time:0
 @print "Please tell me it's because you also secretly think he's a scumbag." author:MIA speed:20 reset:true
 @print "No, it's because you have to be gifted to understand this book. I can sense the gift in you, but Neo doesn't have it." author:ADAM speed:20 reset:true
-@stop
+@goto .MiaAdamDrims
 
 @if G_MagicMePart4_Choise2_10_Var2=2 
 @goto .MIA_ADAM_2
@@ -527,9 +528,11 @@ Harmony: Oopsie. Sorry about that.
 @print "Because he would bore you to death with nerdy questions? " author:MIA speed:20 reset:true
 @print "No, it's because you have to be gifted to understand this book. I can sense the gift in you, but Neo doesn't have it." author:ADAM speed:20 reset:true
 @hidePrinter
-@stop
+@goto .MiaAdamDrims
 
 ;THEN
+
+#MiaAdamDrims
 @char ADAM.Adam@3x look:left time:0
 @char MIA.Mia_blonde-dress1@3x look:left time:0
 
@@ -558,8 +561,8 @@ Harmony: Oopsie. Sorry about that.
 @print  "Well, the Middle Ages are full of engaging metaphors. I don't blame people for being obsessed with witchery and alchemical mysteries." author:MIA speed:20 reset:true
 @print  " I hope that one day you can think about it without ruling out the possibility that miracles exist." author:ADAM speed:20 reset:true
 
-@goto .THE_TATTOO
-@stop
+@goto .TATTOO
+
 
 #MagicMePart4_Choise2_13_Var2
 @printer Wide
@@ -575,8 +578,8 @@ Harmony: Oopsie. Sorry about that.
 @print  "Well, the Middle Ages are full of engaging metaphors. I don't blame people for being obsessed with witchery and alchemical mysteries." author:MIA speed:20 reset:true
 @print  "Well, Miss Skepticism, I hope that one day you can open that book without ruling out the possibility that miracles exist." author:ADAM speed:20 reset:true
 
-@goto .THE_TATTOO
-@stop
+@goto .TATTOO
+
 
 #MagicMePart4_Choise2_13_Var3 
 @printer Wide
@@ -599,7 +602,7 @@ Harmony: Oopsie. Sorry about that.
 @print  "Legend also has it that the balm contained some extremely rare ingredients. And very foul smelling ones!" author:ADAM speed:20 reset:true
 
 @goto .TATTOO
-@stop
+
 
 #TATTOO
 @print  "...It had gotten chillier outside. I felt a shiver; maybe it was the cold, or maybe the stress of the day... Mr. Harrelson noticed me shaking. He took off his jacket and threw it over my shoulders." reset:true speed:20
@@ -608,10 +611,10 @@ Harmony: Oopsie. Sorry about that.
 @print  "Relax, Mia, it's basic civility. You should treat it as such." author:ADAM speed:20 reset:true
 
 ;@char ADAM.TATOO
-@print  "...And that's when I noticed a tattoo on his arm. Four letters: MAYA. " author:MIA
-@print  "...That was my mother's name!" author:MIA
+@print  "...And that's when I noticed a tattoo on his arm. Four letters: MAYA. " speed:20 reset:true
+@print  "...That was my mother's name!" speed:20 reset:true
 ;@char ADAM.TATOO
-@stop
+
 
 ;CHOICE 2_14
 
@@ -633,6 +636,7 @@ Harmony: Oopsie. Sorry about that.
 @print  "Sounds like you have a story to tell on any subject, Mr. Harrelson. " author:MIA speed:20 reset:true
 @print  "...Mr. Harrelson responded with a smile. We were there already, so I gave him back his jacket." reset:true speed:20 
 @print  "I sometimes wish my students would just call me Adam. When I hear 'Mr. Harrelson', I feel the imminence of growing old and grey." author:ADAM speed:20 reset:true
+@goto .MiaDinaRoomNight
 
 @if G_MagicMePart4_Choise2_13_Var2=2
 @if G_MagicMePart4_Choise2_13_Var3=3
@@ -651,7 +655,8 @@ Harmony: Oopsie. Sorry about that.
 @printer Fullscreen
 @print "<b>YOU JUST LEARNED SOMETHING IMPORTANT</b>"
 @hidePrinter
-@stop
+@goto .MiaDinaRoomNight
+
 
 #MagicMePart4_Choise2_14_Var2
 @print  "...I decided not to provoke new rumors by continuing to chat with him in public. I was worried that Mr. Harrelson was already in trouble because of me." reset:true speed:20
@@ -661,11 +666,12 @@ Harmony: Oopsie. Sorry about that.
 @printer Fullscreen
 @print "<b>YOU WERE POLITE, BUT YOU MISSED LEARNING SOMETHING IMPORTANT</b>"
 @hidePrinter
-@stop
+@goto .MiaDinaRoomNight
 
 ;INT. DINA'S ROOM - NIGHT (LOC 17_EVN)
 ;MIA, DINA
-
+#MiaDinaRoomNight
+@camera offset:0.15,0 time:0.2 wait:false		
 @back Dina_room@2x
 
 @char MIA.Mia_blonde-dress1@3x look:Left
@@ -689,6 +695,7 @@ Harmony: Oopsie. Sorry about that.
 @print "Chill. Neo is just being Neo. He's not such a bad person, really. But he wants that internship so badly, I guess he's desperate." author:Dina speed:20 reset:true
 @print " I couldn't care less about what he wants. What he needs is to stop treating people like dirt." author:MIA speed:20 reset:true
 @hidePrinter
+@goto .MiaBobbyCampusMorning
 
 @if G_MagicMePart4_Choise2_10_Var2=2
 @goto .DIANA_MIA_2
@@ -700,10 +707,12 @@ Harmony: Oopsie. Sorry about that.
 @print "That was so nice of him! I always thought there was more to Neo than meets the eye." author:Dina speed:20 reset:true
 @print "...Dina went to bed, and I sat down to rewrite my essay before retiring for the night as well.." reset:true speed:20
 @hidePrinter
+@goto .MiaBobbyCampusMorning
 
 ;CAMPUS LAWN - MORNING (LOC 6)
 ;MIA, BOBBY
 
+#MiaBobbyCampusMorning
 @back MagicMe-University-lawn@2x
 @wait 1
 @printer Dialogue
@@ -725,6 +734,7 @@ Harmony: Oopsie. Sorry about that.
 #BOBBY_MIA_1
 @print "...I was happy to see Bobby, though I hoped we wouldn't have to go back to talking about his feelings for me. But it didn't look like Bobby wanted to talk about it, either." reset:true speed:20
 @print "That's so cool! You're going to love it here. This place is amazing." author:MIA speed:20 reset:true
+@goto .MiaBobbyHUGGING
 
 @if G_MagicMePart4_Choise1_3_Var2=2
 @goto .BOBBY_MIA_2
@@ -732,9 +742,11 @@ Harmony: Oopsie. Sorry about that.
 
 #BOBBY_MIA_2
 @print "...I was so happy to see Bobby! As we walked towards the auditorium, I told him everything that had happened to me."  reset:true speed:20
+@goto .MiaBobbyHUGGING
 
 ;THEN
 
+#MiaBobbyHUGGING
 @print "Mia, you're so carried away with your new life, looks like you completely forgot about your aunt." author:Bobby speed:20 reset:true
 @print "...Ouch. That was true, and the truth hurt." reset:true speed:20
 
