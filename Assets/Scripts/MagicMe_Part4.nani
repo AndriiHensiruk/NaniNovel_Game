@@ -6,22 +6,22 @@
 
 ; PRINTER Dialoge
 @char Blackmail.pen@2x time:0.5 pos:50,30 
-@char MIA.Mia_blonde-dress1-angry@3x look:Right pos:80,-10 wait:false
+@char MIA.Mia_blonde-dress1-angry@3x avatar:Mia look:Right pos:80,-10 wait:false
 @char HARMONY.Harmony-gloat@3x time:0.5 wait:false look:Right pos:20,-10
-@printer Dialogue 
-Mia: Are you insane?!
+@printer Wide 
+MIA: Are you insane?!
 
-@char HARMONY.Harmony-gloat@3x time:0.5 wait:false look:Right pos:20,-10
+@char HARMONY.Harmony-gloat@3x avatar:Hermony time:0.5 wait:false look:Right pos:20,-10
 Harmony: Oopsie. Sorry about that.
 
-@char NEO.Neo-happy@3x time:0.3 wait:false look:Right pos:30,-10
+@char NEO.Neo-happy@3x avatar:Neo time:0.3 wait:false look:Right pos:30,-10
 @print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." author:Neo speed:20
 
-@char ADAM.Adam@3x look:left  pos:70,-10
+@char ADAM.Adam@3x avatar:Adam look:left  pos:70,-10
 @char MIA.Mia_blonde-dress1-sad@3x pos:80,-15 wait:false
 
 @print "Mia, what's going on? " author:Adam speed:20
-@hidePrinter Dialogue
+@hidePrinter Wide
 
 ; PRINTER CHOICE
 
