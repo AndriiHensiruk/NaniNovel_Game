@@ -18,7 +18,7 @@ Harmony: Oopsie. Sorry about that.
 @print "That's a bummer. I guess you' ll have to rewrite it, though I wouldn't bother if I were you. Your essay has no scientific value anyway." author:Neo speed:20
 
 @char ADAM.Adam@3x look:left  pos:70,-10
-@char MIA.Mia_blonde-dress1-sad@3x pos:80,-10 wait:false
+@char MIA.Mia_blonde-dress1-sad@3x pos:80,-15 wait:false
 
 @print "Mia, what's going on? " author:Adam speed:20
 @hidePrinter Dialogue
@@ -35,7 +35,7 @@ Harmony: Oopsie. Sorry about that.
 
 # MagicMePart4_Choise2_9_Var1
 @char MIA.Mia_blonde-dress1-sad@3x  scale:0.9,0.9,1	
-@printer Bubble pos:85,90				
+@printer Bubble pos:85,75				
 @print "...I couldn't let her to get away with it!" reset:true speed:20
 @hidePrinter Bubble
 @printer Dialogue
@@ -56,7 +56,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char ADAM.Adam-angry@3x look:left pos:70,-10 time:0
 
-@printer Bubble pos:85,90	
+@printer Bubble pos:85,80	
 @print "...There were some nasty chuckles in the classroom. Then Mr. Harrelson raised his voice."
 @hidePrinter Bubble
 
@@ -65,7 +65,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char NEO.Neo@3x_sad time:0.3 scale:0.9,0.9,1
 @char HARMONY.Harmony-angry@3x scale:0.9,0.9,1
-@printer Bubble pos:85,90	
+@printer Bubble pos:85,80	
 @print "...Neo grimaced. I had to start over."
 @hidePrinter Bubble
 
@@ -84,7 +84,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char NEO.Neo-happy@3x time:0.3
 @char HARMONY.Harmony-happy@3x time:0.5
-@printer Bubble pos:85,90
+@printer Bubble pos:85,80
 @print "...I heard Harmony and Neo snicker behind me." reset:true speed:20
 @hidePrinter Bubble
 @hidePrinter Dialogue
@@ -176,8 +176,8 @@ Harmony: Oopsie. Sorry about that.
 @endIf
 
 #MIADONEJOB_1
-@char MIA.Mia_blonde-dress1-happy@3x look:left pos:20,-10 time:0
-@printer Bubble.Right pos:18,82
+@char MIA.Mia_blonde-dress1-happy@3x look:left pos:25,-15 time:0
+@printer Bubble.Right pos:18,85
 @print "...I finished rewriting my essay, walked up to Mr. Harrelson's desk and turned it in. There was no one left in the room besides the two of us." reset:true speed:20
 @hidePrinter Bubble
 @printer Dialogue
@@ -220,14 +220,14 @@ Harmony: Oopsie. Sorry about that.
 
 @char ADAM.Adam@3x look:Left pos:80,-10 time:0
 
-@printer Bubble.Right pos:15,80
+@printer Bubble.Right pos:20,85
 @print "...It would have been embarrassing to admit that I fell asleep each time I attempted to read it." reset:true speed:20
 @hidePrinter Bubble
 
 @printer Dialogue
 @print " Not yet... I mean, I checked the book out, but... There's so much in there, I haven't really grasped it yet..." author:MIA speed:20 reset:true
 
-@printer Bubble pos:15,80
+@printer Bubble pos:20,85
 @print "...Mr. Harrelson kept peering at me closely." reset:true speed:20
 @hidePrinter Bubble
 
@@ -235,7 +235,7 @@ Harmony: Oopsie. Sorry about that.
 @print "No wonder. This book, how should I say this, is of profound depth and contains many layers of knowledge. Well, I hope you continue working with it." author:ADAM speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1-close_eyes@3x look:left time:0
-@printer Bubble pos:15,80
+@printer Bubble pos:20,85
 @print "...I nodded and turned toward the exit. Mr. Harrelson called out to me."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -244,7 +244,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char MIA.Mia_blonde-dress1@3x look:left time:0
 @char ADAM.Adam-happy@3x look:left pos:70,-10 time:0
-@printer Bubble pos:15,80
+@printer Bubble pos:20,85
 @print "...I felt blood rushing to my face. Was flirting with me?? That wouldn't be right... Would it?" reset:true speed:20
 @hidePrinter Bubble
 
@@ -259,7 +259,7 @@ Harmony: Oopsie. Sorry about that.
 @stop
 
 # MagicMePart4_Choise2_11_Var1
-@printer Bubble pos:15,80
+@printer Bubble pos:20,85
 @print "...I figured Mr. Harrelson probably needed a research assistant or something, and I looked like a promising student to him. It was stupid to think he was flirting. But the idea of spending some time with him sounded so nice..."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -274,7 +274,7 @@ Harmony: Oopsie. Sorry about that.
 @print " Six o'clock. Can you make it?" author:ADAM speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1-surprise@3x look:left pos:20 time:0
-@printer Bubble.Right pos:40,85
+@printer Bubble.Left pos:40,85
 @print "...Our eyes were locked...I couldn't look away. It felt like his eyes are pulling me in..." reset:true speed:20
 @hidePrinter Bubble
 
@@ -298,7 +298,7 @@ Harmony: Oopsie. Sorry about that.
 
 # MagicMePart4_Choise2_11_Var2
 @char MIA.Mia_blonde-dress1-close_eyes@3x look:left time:0
-@printer Bubble pos:20,80
+@printer Bubble pos:20,85
 @print "...This felt very odd. I was not about to engage in some kind of an "extracurricular" relationship with a prof.." reset:true speed:20
 @hidePrinter Bubble
 
@@ -309,7 +309,7 @@ Harmony: Oopsie. Sorry about that.
 @print "No, I'm sorry. I think I scared you a bit. Actually, it's quite common for a professor to try to get to know promising students that might advance science... I do believe that you could write a fantastic thesis about the Middle Ages. I could be your academic advisor. But the time to start preparing for that is now." author:ADAM speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1@3x look:left time:0
-@printer Bubble pos:20,80
+@printer Bubble pos:20,85
 @print "...I felt like a total idiot. What was I thinking! Mr. Harrelson could not possibly be attracted to me! This was purely a scientific proposal, a learning opportunity!" reset:true speed:20
 @hidePrinter Bubble
 
@@ -318,7 +318,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char ADAM.Adam-happy@3x look:left pos:60,-10 time:0
 @print "Such as?." author:ADAM speed:10 reset:true
-@printer Bubble pos:20,80
+@printer Bubble pos:20,85
 @print "...My question seemed to amuse him, and I felt embarrassed again."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -356,7 +356,7 @@ Harmony: Oopsie. Sorry about that.
 
 @char Dina.dina look:Left pos:90,-10 wait:false
 @char MIA.Mia_blonde-dress1-sad@3x look:Left pos:30,-10 wait:false
-@printer Bubble pos:20,80
+@printer Bubble.Right pos:20,85
 @print "...Dina was home already when I burst into the room. She immediately noticed how worked up I was." reset:true speed:20
 @hidePrinter Bubble
 
@@ -388,11 +388,11 @@ Harmony: Oopsie. Sorry about that.
 
 ;THEN
 #MiaDianaUndercut
-@char MIA.Mia_blonde-dress1-close_eyes@3x look:Right pos:20,-10 wait:false
+@char MIA.Mia_blonde-dress1-close_eyes@3x  wait:false
 @print "That's just business, I mean, it's an academic opportunity!" author:MIA speed:20 reset:true
 
 @print "Chill, I'm not about to judge you even if it's not a 100% academic opportunity!" author:Dina speed:20 reset:true
-@printer Bubble pos:20,85
+@printer Bubble.Right pos:20,85
 @print "...I think I blushed a bit." reset:true speed:20
 @char MIA.Mia_blonde-dress1@3x look:Left pos:20,0 wait:false
 @hidePrinter Bubble
@@ -412,7 +412,7 @@ Harmony: Oopsie. Sorry about that.
 @print "Sure! Romeo and Juliet couldn't be together because their families were feuding and Romeo killed Juliet's brother. No one would ever care about their story if they just averagely met, fell in love and had babies... boooring!" author:Dina speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1-happy@3x look:Left pos:25,-10 wait:false
-@printer Bubble pos:20,80
+@printer Bubble pos:20,85
 @print "...I started laughing but felt myself blushing again." reset:true speed:20
 @hidePrinter Bubble
 
@@ -563,7 +563,7 @@ Harmony: Oopsie. Sorry about that.
 @print " If she wins the contest, the ethics committee will see that picture with the two of you and a bottle of wine. I warned you." author:NEO speed:20 reset:true
 
 @hide NEO
-@printer Bubble pos:55,75
+@printer Bubble pos:65,80
 @print "...Neo stormed off. The evening was ruined." reset:true speed:20
 @hidePrinter Bubble
 
@@ -572,7 +572,7 @@ Harmony: Oopsie. Sorry about that.
 @char MIA.Mia_blonde-dress1@3x
 @print "I suggest we stay. Mind you, we're not doing anything wrong. Though I admit I shoud've thought twice before ordering the wine..." author:ADAM speed:20 reset:true
 @print "I think I've lost my appetite. Sorry, Mr. Harrelson. I'd better go." author:MIA speed:20 reset:true
-@printer Bubble pos:55,75
+@printer Bubble pos:65,80
 @print "...Adam got up beside me. He quickly threw a few bills on the table."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -589,17 +589,18 @@ Harmony: Oopsie. Sorry about that.
 @print " No. I was looking for Mr. Harrelson. Because I think that what happened in class today was not quite fair." author:NEO speed:20 reset:true
 @print "What do you mean?" author:ADAM speed:20 reset:true
 @print " The coffee accident was not [NAME]'s fault. I think she deserves the chance to rewrite the essay." author:NEO speed:20 reset:true
-@printer Bubble pos:55,75
+@printer Bubble pos:65,80
 @print "...I felt like pinching myself. Was that really Neo? What was he saying?" reset:true speed:20
 @hidePrinter Bubble
 
 @printer Dialogue
 @print "Don't get me wrong, Mia, it's not that I feel sorry for you and want you to have a second chance. The point is that I want to win on equal terms with my opponent." author:NEO speed:20 reset:true
+@char MIA.Mia_blonde-dress1@3x look:Right
 @print " Wow. That's a solid attitude. Thanks. But I think it's too late." author:MIA speed:20 reset:true
 @print "No, Mia, I think Neo's right. So I expect your essay by tomorrow morning." author:ADAM speed:20 reset:true
 @print "Thanks, Mr. Harrelson." author:NEO speed:20 reset:true
 @hide NEO
-@printer Bubble pos:60,80
+@printer Bubble pos:65,80
 @print "...Neo walked off, leaving me with a strange feeling. On the one hand, I hated his guts. On the other, I realized that maybe I shouldn't be jumping to conclusions about people." reset:true speed:20
 @hidePrinter Bubble
 
@@ -635,7 +636,7 @@ Harmony: Oopsie. Sorry about that.
 @print "Thanks. I hope this won't cause you any problems. I really wish Neo would quit behaving like a medieval inquisitor hunting blasphemers." author:MIA speed:20 reset:true
 @print "Neo is very passionate about his studies, just like you. But I wouldn't have trusted him with the Evidence of Magic. " author:ADAM speed:20 reset:true
 
-@char MIA.Mia_blonde-dress1@3x look:left time:0
+@char MIA.Mia_blonde-dress1@3x look:Right time:0
 @print "Please tell me it's because you also secretly think he's a scumbag." author:MIA speed:20 reset:true
 @print "No, it's because you have to be gifted to understand this book. I can sense the gift in you, but Neo doesn't have it." author:ADAM speed:20 reset:true
 @goto .MiaAdamDrims
@@ -648,7 +649,7 @@ Harmony: Oopsie. Sorry about that.
 @char ADAM.Adam@3x look:Right time:0
 @char MIA.Mia_blonde-dress1@3x look:Right time:0
 
-@printer Bubble pos:55,75
+@printer Bubble pos:60,75
 @print "...We were walking down the street. I was so overwhelmed with Neo's gesture that I'd completely forgotten we wanted to discuss my future thesis! Mr. Harrelson seemed to have read my mind." reset:true speed:20
 @hidePrinter Bubble
 
@@ -683,7 +684,7 @@ Harmony: Oopsie. Sorry about that.
 @stop
 
 #MagicMePart4_Choise2_13_Var1
-@printer Bubble pos:55,75
+@printer Bubble pos:60,75
 @print "...Perhaps Mr. Harrelson could explain to me why I kept dozing off while reading Evidence of Magic." reset:true speed:20
 @hidePrinter Bubble
 
@@ -729,7 +730,7 @@ Harmony: Oopsie. Sorry about that.
 
 
 #MagicMePart4_Choise2_13_Var3 
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I was about to tell Mr. Harrelson about my bizarre dreams, but then I changed my mind. He would probably just think I'm detached from reality or making things up." reset:true speed:20
 @hidePrinter Bubble
 
@@ -755,13 +756,13 @@ Harmony: Oopsie. Sorry about that.
 
 
 #TATTOO
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print  "...It had gotten chillier outside. I felt a shiver; maybe it was the cold, or maybe the stress of the day... Mr. Harrelson noticed me shaking. He took off his jacket and threw it over my shoulders." reset:true speed:20
 @hidePrinter Bubble
 
 @printer Dialogue
 @print  "Is this better? ." author:ADAM speed:20 reset:true
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print  "....That was the last thing I needed! If somebody saw me in the prof's jacket, it certainly wouldn't look like we were having a scientific discussion. " reset:true speed:20
 @hidePrinter Bubble
 
@@ -769,7 +770,7 @@ Harmony: Oopsie. Sorry about that.
 @print  "Relax, Mia, it's basic civility. You should treat it as such." author:ADAM speed:20 reset:true
 
 ;@char ADAM.TATOO
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print  "...And that's when I noticed a tattoo on his arm. Four letters: MAYA. " speed:20 reset:true
 @print  "...That was my mother's name!" speed:20 reset:true
 @hidePrinter Bubble
@@ -832,7 +833,7 @@ Harmony: Oopsie. Sorry about that.
 
 
 #MagicMePart4_Choise2_14_Var2
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print  "...I decided not to provoke new rumors by continuing to chat with him in public. I was worried that Mr. Harrelson was already in trouble because of me." reset:true speed:20
 @hidePrinter Bubble
 
@@ -843,6 +844,7 @@ Harmony: Oopsie. Sorry about that.
 @printer Fullscreen
 @print "<b>YOU WERE POLITE, BUT YOU MISSED LEARNING SOMETHING IMPORTANT</b>"
 @hidePrinter Fullscreen
+@hideAll
 @goto .MiaDinaRoomNight
 
 ;INT. DINA'S ROOM - NIGHT (LOC 17_EVN)
@@ -851,8 +853,8 @@ Harmony: Oopsie. Sorry about that.
 @camera offset:0.15,0 time:0.2 wait:false		
 @back Dina_room@2x
 
-@char MIA.Mia_blonde-dress1@3x look:Left
-@char Dina.dina look:Right
+@char MIA.Mia_blonde-dress1@3x look:Left pos:30,-10
+@char Dina.dina look:Left pos:80,-10
 
 @printer Bubble pos:20,85
 @print "...Dina was home, and she looked very impatient to hear about my dinner with Mr. Harrelson. It felt a bit awkward." reset:true speed:20
@@ -874,6 +876,7 @@ Harmony: Oopsie. Sorry about that.
 @print "Chill. Neo is just being Neo. He's not such a bad person, really. But he wants that internship so badly, I guess he's desperate." author:Dina speed:20 reset:true
 @print " I couldn't care less about what he wants. What he needs is to stop treating people like dirt." author:MIA speed:20 reset:true
 @hidePrinter
+@hideAll
 @goto .MiaBobbyCampusMorning
 
 @if G_MagicMePart4_Choise2_10_Var2=2
@@ -887,6 +890,7 @@ Harmony: Oopsie. Sorry about that.
 @printer Bubble pos:20,85
 @print "...Dina went to bed, and I sat down to rewrite my essay before retiring for the night as well.." reset:true speed:20
 @hidePrinter Bubble
+@hideAll
 @goto .MiaBobbyCampusMorning
 
 ;CAMPUS LAWN - MORNING (LOC 6)
@@ -896,11 +900,12 @@ Harmony: Oopsie. Sorry about that.
 @back MagicMe-University-lawn@2x
 @wait 1
 @printer Dialogue
-@char MIA.Mia_blonde-dress1-surprise@3x look:Left time:0
+@char MIA.Mia_blonde-dress1-surprise@3x look:Right time:0
+@char BOBBY.Bobby-happy@3x
 @print "Bobby?! What are you doing here??" author:MIA speed:20 reset:true
 
-@char BOBBY.Bobby-happy@3x
-@printer Bubble pos:20,85
+
+@printer Bubble pos:60,85
 @print "...Bobby was standing there with a huge bag over his shoulder."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -916,7 +921,7 @@ Harmony: Oopsie. Sorry about that.
 @endIf
 
 #BOBBY_MIA_1
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I was happy to see Bobby, though I hoped we wouldn't have to go back to talking about his feelings for me. But it didn't look like Bobby wanted to talk about it, either." reset:true speed:20
 @hidePrinter Bubble
 
@@ -929,7 +934,7 @@ Harmony: Oopsie. Sorry about that.
 @endIf
 
 #BOBBY_MIA_2
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I was so happy to see Bobby! As we walked towards the auditorium, I told him everything that had happened to me."  reset:true speed:20
 @hidePrinter Bubble
 
@@ -940,7 +945,7 @@ Harmony: Oopsie. Sorry about that.
 
 #MiaBobbyHUGGING
 @print "Mia, you're so carried away with your new life, looks like you completely forgot about your aunt." author:Bobby speed:20 reset:true
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...Ouch. That was true, and the truth hurt." reset:true speed:20
 @hidePrinter Bubble
 
@@ -953,7 +958,7 @@ Harmony: Oopsie. Sorry about that.
 @print "What? I'm not coming back. This is the life I wanted, don't you guys get it? Things actually happen to me here! Like, I got to read this amazing book recently..." author:MIA speed:20 reset:true
 
 @print "Okay, okay, you like it here, I get it. I hope nobody is giving you any trouble." author:Bobby speed:20 reset:true
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I guess a hesitated for a beat too long. Bobby knew the answer immediately, and became very protective. Because Bobby was Bobby." reset:true speed:20
 @hidePrinter Bubble
 
@@ -961,14 +966,14 @@ Harmony: Oopsie. Sorry about that.
 @print "Just give me a name. Tell me who is giving you a hard time, and I'm going to teach him a lesson" author:Bobby speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1-happy@3x
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I laughed out loud." reset:true speed:20
 @hidePrinter Bubble
 
 @printer Dialogue
 @print "'Him'? But Bobby, what if it's a girl? " author:MIA speed:20 reset:true
 
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...Bobby wasn't expecting that. He just stared at me, wondering if I was joking, and looked so adorable in his bewilderment that I laughed again and gave him a tight hug." reset:true speed:20
 @hidePrinter Bubble
 
@@ -978,7 +983,7 @@ Harmony: Oopsie. Sorry about that.
 @print "I'm so glad you're here, old pal! I have sandwiches and coke, so let's celebrate your new jo " author:MIA speed:20 reset:true
 
 @char MIA.Mia_blonde-dress1-surprise@3x
-@printer Bubble pos:20,85
+@printer Bubble pos:60,85
 @print "...I opened the bag and took out my breakfast. Then, all of a sudden, I spotted something in my bag that wasn't supposed to be there. Not under any circumstances!" reset:true speed:20
 @print "...It was the little silver jar with the supposedly magic balm, the one I found in the alchemist's room just before tumbling into the flames..."  reset:true speed:20
 

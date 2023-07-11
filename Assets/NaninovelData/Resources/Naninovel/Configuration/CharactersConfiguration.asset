@@ -99,7 +99,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: 
+      DisplayName: Mia
       UseCharacterColor: 1
       NameColor: {r: 0.31482345, g: 0.9811321, b: 0.087931626, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
@@ -113,7 +113,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -141,7 +141,7 @@ MonoBehaviour:
         width: 1
         height: 1
       BakedLookDirection: 1
-      DisplayName: 
+      DisplayName: Adam
       UseCharacterColor: 1
       NameColor: {r: 0.33333334, g: 0.32941177, b: 0.33333334, a: 1}
       MessageColor: {r: 1, g: 1, b: 1, a: 1}
@@ -155,7 +155,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -197,7 +197,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -239,7 +239,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -281,7 +281,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -365,7 +365,7 @@ MonoBehaviour:
       MessageSound: 
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
-      LinkedPrinter: 
+      LinkedPrinter: Dialogue
       Poses: []
   AvatarLoader:
     PathPrefix: CharacterAvatars

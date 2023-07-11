@@ -16,7 +16,7 @@
           &lt;string&gt;Mia_blonde-dress1-sad@3x&lt;/string&gt;
           &lt;string&gt;Mia_blonde-dress1-surprise@3x&lt;/string&gt;
         &lt;/Appearances&gt;
-        &lt;Description /&gt;
+        &lt;Description&gt;Mia&lt;/Description&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;ADAM&lt;/Id&gt;
@@ -28,7 +28,7 @@
           &lt;string&gt;Adam-surprised@3x&lt;/string&gt;
           &lt;string&gt;Adam@3x&lt;/string&gt;
         &lt;/Appearances&gt;
-        &lt;Description /&gt;
+        &lt;Description&gt;Adam&lt;/Description&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;HARMONY&lt;/Id&gt;
