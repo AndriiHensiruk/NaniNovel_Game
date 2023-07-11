@@ -158,6 +158,7 @@ Harmony: Oopsie. Sorry about that.
 @hidePrinter Bubble
 @hide MIA,ADAM 
 ;CAPTION: +1 Magic.	
+
 @set G_MagicMe_Magic+=1
 
 @goto .MiaAdamDesck
@@ -353,7 +354,7 @@ Harmony: Oopsie. Sorry about that.
 #MiaDianaRoom
 @back Dina_room@2x
 @wait 0.25
-
+@camera offset:0,0 time:0.2 wait:false																	
 @char Dina.dina look:Left pos:90,-10 wait:false
 @char MIA.Mia_blonde-dress1-sad@3x look:Left pos:30,-10 wait:false
 @printer Bubble.Right pos:20,85
@@ -429,7 +430,7 @@ Harmony: Oopsie. Sorry about that.
 @camera offset:0,0 time:0.2	
 @back Food_street@3x
 @wait 0.25
-
+@camera offset:0,0 time:0.2	
 @char MIA.Mia_blonde-dress1@3x look:Right wait:false
 @printer Bubble pos:30,75
 @print "...The dining hall was in the loft overlooking the entire valley, the campus, the college spires... Adam was already there, with a bottle of wine on the table to keep him company while he waited. I greeted him as he moved out a chair for me, and then I looked at the label. " reset:true speed:20
@@ -507,6 +508,7 @@ Harmony: Oopsie. Sorry about that.
 @goto .NEO'S_THREAT
 
 # MagicMePart4_Choise2_12_Var2
+@char MIA.Mia_blonde-dress1-angry@3x
 @printer Bubble pos:60,85
 @print "...Why was he stalking me all day??"  reset:true speed:20
 @hidePrinter Bubble
@@ -514,6 +516,7 @@ Harmony: Oopsie. Sorry about that.
 @printer Dialogue
 @char MIA.Mia_blonde-dress1-close_eyes@3x look:Right wait:false
 @print " I hope you choke on your spite, Neo." author:MIA speed:20 reset:true
+@char MIA.Mia_blonde-dress1@3x
 @printer Bubble pos:60,80
 @print "...I felt my mother's amulet vibrate. Before I knew what was happening, Neo grabbed an olive from the bowl on our table and popped it in his mouth. And suddenly, right in front of my eyes, his face changed, he started choking, clutching at his throat... He was unironically choking! I told myself I should think a hundred times before making wishes like that again!" reset:true speed:20
 @hidePrinter Bubble
@@ -538,8 +541,11 @@ Harmony: Oopsie. Sorry about that.
 @char NEO.Neo-angry@3x look:Right wait:false
 @print "I'm fine. It's your little minion who's the problem.? " author:NEO speed:20 reset:true
 
-;CAPTION: +1 Magic.	
+;CAPTION: +1 Magic.
+@spawn Magic 	
 @set G_MagicMe_Magic+=1
+@wait 5
+@despawn Magic
 
 @goto .NEO'S_THREAT
 
@@ -586,6 +592,7 @@ Harmony: Oopsie. Sorry about that.
 # NEO_ADAM
 @char NEO.Neo@3x_sad
 @print " Are you stalking me??" author:MIA speed:20 reset:true
+@char MIA.Mia_blonde-dress1@3x look:Right
 @print " No. I was looking for Mr. Harrelson. Because I think that what happened in class today was not quite fair." author:NEO speed:20 reset:true
 @print "What do you mean?" author:ADAM speed:20 reset:true
 @print " The coffee accident was not [NAME]'s fault. I think she deserves the chance to rewrite the essay." author:NEO speed:20 reset:true
@@ -615,7 +622,7 @@ Harmony: Oopsie. Sorry about that.
 ;MIA, ADAM
 #MiaAdamCampusLamp
 @back MagicMe-University-hallway@2x
-
+@camera offset:0,0 time:0.2	
 @if G_MagicMePart4_Choise2_9_Var1=1 
 @if G_MagicMePart4_Choise2_10_Var1=1 
 @goto .MIA_ADAM_1
@@ -698,7 +705,7 @@ Harmony: Oopsie. Sorry about that.
 @hidePrinter Bubble
 
 @printer Dialogue
-@char ADAM.Adam-happy@3x look:left time:0
+@char ADAM.Adam-happy@3x look:Right time:0
 @print  "  I know, I know, you're going to say the legend is just a metaphor for something very engaging." author:ADAM speed:20 reset:true
 @print  "Well, the Middle Ages are full of engaging metaphors. I don't blame people for being obsessed with witchery and alchemical mysteries." author:MIA speed:20 reset:true
 @print  " I hope that one day you can think about it without ruling out the possibility that miracles exist." author:ADAM speed:20 reset:true
@@ -803,6 +810,7 @@ Harmony: Oopsie. Sorry about that.
 
 @printer Dialogue
 @print  "I sometimes wish my students would just call me Adam. When I hear 'Mr. Harrelson', I feel the imminence of growing old and grey." author:ADAM speed:20 reset:true
+@hideAll
 @goto .MiaDinaRoomNight
 
 @if G_MagicMePart4_Choise2_13_Var2=2
@@ -829,6 +837,7 @@ Harmony: Oopsie. Sorry about that.
 @printer Fullscreen
 @print "<b>YOU JUST LEARNED SOMETHING IMPORTANT</b>"
 @hidePrinter
+@hideAll
 @goto .MiaDinaRoomNight
 
 
@@ -900,7 +909,7 @@ Harmony: Oopsie. Sorry about that.
 @back MagicMe-University-lawn@2x
 @wait 1
 @printer Dialogue
-@char MIA.Mia_blonde-dress1-surprise@3x look:Right time:0
+@char MIA.Mia_blonde-dress1-surprise@3x look:Right time:0 pos:80,0
 @char BOBBY.Bobby-happy@3x
 @print "Bobby?! What are you doing here??" author:MIA speed:20 reset:true
 
@@ -908,7 +917,7 @@ Harmony: Oopsie. Sorry about that.
 @printer Bubble pos:60,85
 @print "...Bobby was standing there with a huge bag over his shoulder."  reset:true speed:20
 @hidePrinter Bubble
-
+@char MIA.Mia_blonde-dress1@3x 
 @printer Dialogue
 @print " I missed you, so I thought I'd drop by and say hi." author:Bobby speed:20 reset:true
 @print "Why didn't you text me?" author:MIA speed:20 reset:true
