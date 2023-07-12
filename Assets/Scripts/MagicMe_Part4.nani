@@ -1,5 +1,5 @@
 # Start
-@back MagicMe-University-auditorium@2x
+@back MagicMe-University-auditorium@2x.CircleReveal
 @wait 0.25
 
 ; MIA, ADAM, HARMONY, NEO
@@ -26,7 +26,7 @@ Harmony: Oopsie. Sorry about that.
 ; PRINTER CHOICE
 
 @printer Chat
-@print "What's your decision?" author:null reset:true waitInput:false
+@print "<b>What's your decision?</b>" author:null reset:true waitInput:false
 @choice "Complain about Harmony." handler:ChatReply goto:.MagicMePart4_Choise2_9_Var1 set:G_MagicMePart4_Choise2_9_Var1=1
 @choice "Keep silent" handler:ChatReply goto:.MagicMePart4_Choise2_9_Var2 set:G_MagicMePart4_Choise2_9_Var2=2
 @stop
@@ -166,8 +166,8 @@ Harmony: Oopsie. Sorry about that.
 ;MIA, ADAM
 #MiaAdamDesck
 @camera offset:0,0 time:0.2	
-@back MagicMe-University-auditorium-table@2x
-@wait 0.25
+@back MagicMe-University-auditorium-table@2x.CircleReveal params:3.33
+@wait 0.35
 @char MIA.Mia_blonde-dress1@3x look:left pos:10,0 time:0
 @char ADAM.Adam@3x look:Right pos:80,0 time:0
 
@@ -352,7 +352,7 @@ Harmony: Oopsie. Sorry about that.
 
 ;MIA, DINA
 #MiaDianaRoom
-@back Dina_room@2x
+@back Dina_room@2x.CloudReveal
 @wait 0.25
 @camera offset:0,0 time:0.2 wait:false																	
 @char Dina.dina look:Left pos:90,-10 wait:false
@@ -428,7 +428,7 @@ Harmony: Oopsie. Sorry about that.
 ;GREEN SQUARE CAFE - NIGHT (LOC 21)
 ;ADAM, MIA, NEO
 @camera offset:0,0 time:0.2	
-@back Food_street@3x
+@back Food_street@3x.CloudReveal
 @wait 0.25
 @camera offset:0,0 time:0.2	
 @char MIA.Mia_blonde-dress1@3x look:Right wait:false
@@ -621,7 +621,7 @@ Harmony: Oopsie. Sorry about that.
 ;CAMPUS LAWN (LOC 6)
 ;MIA, ADAM
 #MiaAdamCampusLamp
-@back MagicMe-University-hallway@2x
+@back MagicMe-University-hallway@2x.RadialBlur
 @camera offset:0,0 time:0.2	
 @if G_MagicMePart4_Choise2_9_Var1=1 
 @if G_MagicMePart4_Choise2_10_Var1=1 
@@ -860,7 +860,7 @@ Harmony: Oopsie. Sorry about that.
 ;MIA, DINA
 #MiaDinaRoomNight
 @camera offset:0.15,0 time:0.2 wait:false		
-@back Dina_room@2x
+@back Dina_room@2x.RadialWiggle
 
 @char MIA.Mia_blonde-dress1@3x look:Left pos:30,-10
 @char Dina.dina look:Left pos:80,-10

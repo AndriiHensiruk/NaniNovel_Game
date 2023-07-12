@@ -312,12 +312,27 @@ MonoBehaviour:
       pathPrefix: Backgrounds/MainBackground
       guid: 964ed1833e0c80a43981139a81ece07b
   - Id: CharacterAvatars
-    Resources: []
+    Resources:
+    - name: Mia
+      pathPrefix: CharacterAvatars
+      guid: 08e90656c0384df49b28bf808380f102
+    - name: Neo
+      pathPrefix: CharacterAvatars
+      guid: 621448a066d5edd4ab1177ceab090353
+    - name: Bobby
+      pathPrefix: CharacterAvatars
+      guid: e1d2e4974e54a8c49904afb78867ca17
+    - name: Adam
+      pathPrefix: CharacterAvatars
+      guid: 3e64356f49a360e43ac38529a9fefa18
+    - name: Dina
+      pathPrefix: CharacterAvatars
+      guid: 7962b425980ba4a4198e874f10fb5956
+    - name: Harmony
+      pathPrefix: CharacterAvatars
+      guid: 103711894da3a2b4891a4a00f6f1d617
   - Id: Characters/854dae1e-9d74-4319-8618-17ff817f1ca9
     Resources:
-    - name: Mia_blonde-dress1@3x
-      pathPrefix: Characters/MIA
-      guid: 08e90656c0384df49b28bf808380f102
     - name: Mia_blonde-dress1-angry@3x
       pathPrefix: Characters/MIA
       guid: 484e934c72199c34ea4ea8916c9050e9
@@ -333,6 +348,9 @@ MonoBehaviour:
     - name: Mia_blonde-dress1-surprise@3x
       pathPrefix: Characters/MIA
       guid: 35ab62647f970d2488c3bc930a9d06f4
+    - name: Mia_blonde-dress1@3x
+      pathPrefix: Characters/MIA
+      guid: 08e90656c0384df49b28bf808380f102
   - Id: Characters/2beaaaac-32be-4a92-99ab-962f881bfb7b
     Resources:
     - name: Harmony-angry@3x
