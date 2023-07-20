@@ -16,7 +16,7 @@
           &lt;string&gt;Mia_blonde-dress1-surprise@3x&lt;/string&gt;
           &lt;string&gt;Mia_blonde-dress1@3x&lt;/string&gt;
         &lt;/Appearances&gt;
-        &lt;Description&gt;Mia&lt;/Description&gt;
+        &lt;Description&gt;{G_playerName}&lt;/Description&gt;
       &lt;/Actor&gt;
       &lt;Actor&gt;
         &lt;Id&gt;ADAM&lt;/Id&gt;
@@ -776,7 +776,9 @@
         &lt;/Values&gt;
       &lt;/Constant&gt;
     &lt;/Constants&gt;
-    &lt;Variables /&gt;
+    &lt;Variables&gt;
+      &lt;string&gt;G_playerName&lt;/string&gt;
+    &lt;/Variables&gt;
     &lt;Functions /&gt;
   &lt;/Metadata&gt;
 &lt;/UpdateMetadata&gt;</SerializedMessage>

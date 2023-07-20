@@ -1,0 +1,7 @@
+ADAM: Adam
+Blackmail: Blackmail
+BOBBY: BOBBY
+Dina: Dina
+HARMONY: HARMONY
+MIA: {G_playerName}
+NEO: NEO
